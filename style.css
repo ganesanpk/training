@@ -1,0 +1,33 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+.text_align{
+    text-align: center;
+}
+.border{
+    border: 1px solid black
+}
+.margin_bottom{
+    margin-bottom: 10px;
+}
+.padding{
+    padding-top: 10px;
+    padding-bottom: 10px;    
+}
+.txt_color{
+    color: green;
+    font-weight: bold;
+}
+.float_left{
+    float: left;
+}
+.float_right{
+    float: right;
+}
+.width{
+    width: 49%;
+}
+.margin_auto{
+    margin: 0 auto;
+}
