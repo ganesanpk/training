@@ -16,13 +16,13 @@ body{
     padding-bottom: 40px;
 }
 .padding3{
-    padding: 8px 0px;
+    padding: 6px 0px;
 }
 .padding4{
-    padding-bottom: 38px;
+    padding-bottom: 41px;
 }
 .padding6{
-    padding-top: 37px;
+    padding-top: 41px;
 }
 .padding5{
     padding-top: 20px;
@@ -47,7 +47,7 @@ body{
     width: 71%;
 }
 .width_a{
-    width: 90%;
+    width: 95%;
 }
 .width_b{
     width: 94%;
@@ -128,4 +128,48 @@ body{
 }
 .fa-right-long{
     color: #f5f5ce;
+}
+
+
+
+@media screen and (min-width:320px) and (max-width:480px){
+    .nofloat{
+        float: none;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:560px){
+    .nofloat1{
+        float: none;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:561px) and (max-width:620px){
+    .nofloat2{
+        float: none;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:621px) and (max-width:768px){
+    .nofloat3{
+        float: none;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:992px){
+    .nofloat4{
+        float: none;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:993px) and (max-width:1024px){
+    .nofloat5{
+        float: none;
+        width: 100%;
+    }
 }
