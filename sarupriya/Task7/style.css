@@ -1,0 +1,170 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+.width_a{
+    width: 85%;
+}
+.width_b{
+    width: 75%;
+}
+.width_c{
+    width: 90%;
+}
+.margin_a{
+    margin: 0 auto;
+}
+.bg_color1{
+    background-color: #441e13;
+}
+.bg_color2{
+    background-color: #35170d;
+}
+.bg_color3{
+    background-color: #87a984;
+}
+.bg_color4{
+    background-color: #96afac;
+}
+.bg_color5{
+    background-color: #dbd8c5;
+}
+.font_size1{
+    font-size: 44px;
+}
+.font_size2{
+    font-size: 22px;
+}
+.font_size3{
+    font-size: 29px;
+}
+.font_size4{
+    font-size: 20px;
+}
+.font_color{
+    color: white;
+}
+.font_color4{
+    color: #bdb7b7;
+}
+.font_color1{
+    color: #85564a;
+}
+.font_color2{
+    color: #4f717c;
+}
+.font_color3{
+    color: #313131;
+}
+.font_bold{
+    font-weight: bold;
+}
+.padding{
+    padding-top: 35px;
+}
+.padding8{
+    padding-top: 13px;
+}
+.button{
+    display: inline-block;
+    font-size: 19px;
+    padding: 8px 38px;
+}
+.button1{
+    display: block;
+    font-size: 23px;
+    padding: 10px 0px;
+}
+.border{
+    border-right: 2px solid #7a4334;
+}
+.padding1{
+    padding-top: 15px;
+    padding-bottom: 12px;
+}
+.padding2{
+    padding-top: 25px;
+    padding-bottom: 501px;
+}
+.padding3{
+    padding-top: 30px;
+}
+.padding9{
+    padding-bottom: 40px;
+}
+.padding4{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.padding5{
+    padding-bottom: 195px;
+}
+.padding6{
+    padding-bottom: 35px;
+}
+.padding7{
+    padding-bottom: 65px;
+}
+.margin{
+    margin-bottom: 10px;
+}
+.float_left{
+    float: left;
+}
+.float_right{
+    float: right;
+}
+.width_left{
+    width: 20%;
+}
+.width_right{
+    width: 80%;
+}
+.txtalign{
+    text-align: center;
+}
+.font_f{
+    font-family: 'Baskerville Old Face';
+}
+.margin1{
+    margin-bottom: 15px;
+}
+.border_d{
+    border-bottom: 2px solid #dbd8c5;
+}
+a{
+    text-decoration: none;
+}
+
+
+@media screen and (min-width:320px) and (max-width:480px){
+    .nofloat{
+        float: none;
+        margin-top: 10px;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:560px){
+    .nofloat1{
+        float: none;
+        margin-top: 10px;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:561px) and (max-width:620px){
+    .nofloat2{
+        float: none;
+        margin-top: 10px;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:621px) and (max-width:768px){
+    .nofloat3{
+        float: none;
+        margin-top: 10px;
+        width: 100%;
+    }
+}
