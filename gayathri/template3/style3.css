@@ -22,10 +22,13 @@ body{
     float: right;
 }
 .width{
-    width: 70%;
+    width: 69%;
+    margin: auto;
 }
 .width30{
     width: 30%;
+    margin: auto;
+    
 }
 .bgcolor{
     background-color: #ffffcc;
@@ -43,8 +46,8 @@ body{
     background-color: #e6e6e6;
 }
 .padding2{
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding-top: 170px;
+    padding-bottom: 170px;
 }
 .width80{
     width: 80%;
@@ -55,8 +58,7 @@ body{
     background-color: #b3daff;
 }
 .padding5{
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 20px;
 }
 .bg_white{
     background-color: white;
@@ -66,16 +68,20 @@ body{
 }
 .margin_auto{
     margin: 0 auto;
+    margin-bottom: 10px;
 }
-.width90{
-    width: 90%;
+.width95{
+    width: 95%;
 }
-.width70{
-    width: 70%;
+.width95{
+    width: 95%;
 }
 .bgcolor7{
-    background-color:  #ffff66;
+    background-color: #ffffcc;
 }
 .bgcolor8{
     background-color: #e6ccff;
+}
+.padding3{
+    padding-bottom: 2px;
 }
