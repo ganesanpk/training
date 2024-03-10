@@ -1,20 +1,17 @@
 body{
     margin: 0 auto;
     padding: 0;
-    background-color: black;
-    
+    background-color: black;    
 }
 .txt_center{
     text-align: center;
-
 }
 .border{
     border: 2px solid black;
 }
 .padding{
     padding-top: 10px;
-    padding-bottom: 10px;
-}
+    padding-bottom: 10px;}
 .float_left{
     float: left;
 }
@@ -27,8 +24,7 @@ body{
 }
 .width30{
     width: 30%;
-    margin: auto;
-    
+    margin: auto;    
 }
 .bgcolor{
     background-color: #ffffcc;
@@ -52,7 +48,6 @@ body{
 .width80{
     width: 80%;
     margin: auto;
-
 }
 .bgcolor6{
     background-color: #b3daff;
