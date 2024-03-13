@@ -154,6 +154,9 @@ a{
     .txt_align1{
         text-align: center;
     }
+    .border_r1{
+        border: none;
+    }
 }
 
 @media screen and (min-width:481px) and (max-width:560px){
@@ -172,6 +175,9 @@ a{
     }
     .txt_align2{
         text-align: center;
+    }
+    .border_r2{
+        border: none;
     }
 }
 
@@ -192,6 +198,9 @@ a{
     .txt_align3{
         text-align: center;
     }
+    .border_r3{
+        border: none;
+    }
 }
 
 @media screen and (min-width:621px) and (max-width:768px){
@@ -210,5 +219,8 @@ a{
     }
     .txt_align4{
         text-align: center;
+    }
+    .border_r4{
+        border: none;
     }
 }
