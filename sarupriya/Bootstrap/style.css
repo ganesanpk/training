@@ -1,0 +1,39 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+.width_a{
+    width: 9%;
+}
+.margin_a{
+    margin: 0 auto;
+}
+.width_b{
+    width: 40%;
+}
+.color_a{
+    color: #eb6a54;
+}
+.font_size{
+    font-size: 75%;
+}
+.font_size1{
+    font-size: 150%;
+}
+.font_b{
+    font-size: 71%;
+}
+.bold{
+    font-weight: bold;
+}
+.bg_img{
+    background-image: url(img.jpg);
+    text-align: center;
+}
+.color1{
+    color: #dd5361;
+}
+.padding{
+    padding-top: 3%;
+    padding-bottom: 13%;
+}
