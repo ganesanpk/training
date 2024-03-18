@@ -83,6 +83,9 @@ body{
 .margin_a{
     margin-top: 20px;
 }
+.margin_top{
+    margin-top: 35px;
+}
 .float_r1{
     float: right;
 } 
@@ -93,7 +96,7 @@ body{
     color:#9c3902 ;
 }
 .font_size1{
-    font-size: 40px;
+    font-size: 35px;
 }
 .padding_c{
     padding-top: 20px;
@@ -102,11 +105,14 @@ body{
     font-size: 15px;
     font-style: italic;
 }
+.padding{
+    padding-bottom: 10px;
+}
 .padding_e{
     padding-bottom: 5px;
 }
 .linespacing{
-    line-height: 20px;
+    line-height: 23px;
     list-style: none;
 }
 .font_size3{
@@ -121,7 +127,7 @@ body{
     float: right;
 }
 .width_right{
-    width: 29%;
+    width: 28%;
 }
 .float_l1{
     float: left;
