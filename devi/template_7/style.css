@@ -1,0 +1,122 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+.bg_color {
+    background-color: #441e13;
+}
+.bg_color1 {
+    background-color: #37170e;
+}
+.bg_color2 {
+    background-color: #87a984;
+}
+.bg_color3 {
+    background-color: #96afac;
+}
+.bg_color4 {
+    background-color: #dcd8c5;
+}
+.text_color {
+    color: white
+}
+.text_color1 {
+    color: black
+}
+.text_color2 {
+    color:#5d7279
+}
+.text_color3 {
+    color: #7c5248;
+}
+.floatl {
+    float: left;
+}
+.floatr {
+    float: right;
+}
+.width_20 {
+    width: 20%;
+}
+.width_80 {
+    width: 80%;
+}
+.width1 {
+    width: 98%;
+}
+.width2 {
+    width: 90%;
+}
+.margin_0 {
+    margin: 0 auto;
+}
+.margin1 {
+    margin-top: 20px;
+}
+.padding1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.padding2 {
+    padding-bottom: 270px;
+}
+.padding3 {
+    padding-bottom: 163px;
+}
+.padding4 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.padding5 {
+    padding-bottom: 20px;
+}
+.padding_top {
+    padding-top: 80px;
+}
+.button {
+    display: inline-block;
+    color: white;
+    font-size: 17px;
+    padding: 8px 15px;
+}
+.button1 {
+    display: block;
+    color: white;
+    font-size: 17px;
+    padding: 10px 15px;
+}
+.border_right {
+    border-right: 2px solid #74562e;
+}
+.border_bottom {
+    border-bottom: 1px solid #edeff6;
+}
+.img_height {
+    height: 200px;
+}
+.font_size {
+    font-size: 40px;
+    font-weight: bolder;
+}
+.font_size1 {
+    font-size: 10px;
+    font-weight: none;
+}
+.font_size2 {
+    font-size: 45px;
+    font-weight: bolder;
+}
+.font_size3 {
+    font-size: 15px;
+    font-weight: none;
+}
+.font_size4 {
+    font-size: 35px;
+    font-weight: bolder;
+}
+.font_type {
+    font-family: sans-serif;
+}
+.line_spacing {
+    line-height: 2
+}

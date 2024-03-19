@@ -134,4 +134,53 @@ body{
     border-right: 3px solid #babeac;
 
 }
+/* 320px to 480px
+481px to 560px
+561px to 620px
+621px to 768px
+768px to 992px
+993px to 1024px */
+
+
+@media screen and (min-width:320px) and (max-width:480px){
+    .nofloat1{
+        float: none;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:560px){
+    .nofloat2{
+        float: none;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:561px) and (max-width:620px){
+    .nofloat3{
+        float: none;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:621px) and (max-width:768px){
+    .nofloat4{
+        float: none;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:992px){
+    .nofloat5{
+        float: none;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:993px) and (max-width:1024px){
+    .nofloat6{
+        float: none;
+        width: 100%;
+    }
+}
 
