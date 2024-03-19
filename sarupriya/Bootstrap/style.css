@@ -101,6 +101,9 @@ body{
     color: #f5eded;
     font-weight: lighter;
 }
+.color5{
+    color: #d6d0d0;
+}
 .fa-quote-left{
     color:#b1a7a7;
 }
@@ -109,4 +112,23 @@ body{
 }
 .linespacing{
     line-height: 22px;
+}
+.padding1{
+    padding-top: 8%;
+    padding-bottom: 2%;
+}
+.fa-phone{
+    color: #afa0a0;
+}
+.fa-envelope{
+    color: #afa0a0;
+}
+.height{
+    height: 35px;
+}
+.width_c{
+    width: 35%;
+}
+.width_d{
+    width: 62%;
 }
