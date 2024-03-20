@@ -53,6 +53,8 @@ body{
 .bg_img{
     background-image: url(img.png);
     background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .txtalign{
     text-align: center;
@@ -131,4 +133,46 @@ body{
 }
 .width_d{
     width: 62%;
+}
+.down{
+    width: 3%;
+    color: #a19999;
+    background-color: #af3440;
+}
+
+
+@media screen and (min-width:320px) and (max-width:480px){
+    .nofloat{
+        margin-top: 10px;
+    }
+    .txt_align{
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:560px){
+    .nofloat1{
+        margin-top: 10px;
+    }
+    .txt_align1{
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:561px) and (max-width:620px){
+    .nofloat2{
+        margin-top: 10px;
+    }
+    .txt_align2{
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:621px) and (max-width:768px){
+    .nofloat3{
+        margin-top: 10px;
+    }
+    .txt_align3{
+        text-align: center;
+    }
 }
