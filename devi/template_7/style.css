@@ -120,3 +120,115 @@ body{
 .line_spacing {
     line-height: 2
 }
+
+/* 320px to 480px
+481px to 560px
+561px to 620px
+621px to 768px
+768px to 992px
+993px to 1024px */
+
+
+@media screen and (min-width:320px) and (max-width:480px){
+    .display_block1{
+        display:block;
+        padding: 10px;
+    }
+    .nofloat1{
+        float:none;
+        width:100%
+    }
+    .txt_align1{
+        text-align: center;
+    }
+    .nofloat_l1{
+        float: none;
+        margin: 0 auto;
+        width: 70%;
+    }
+}
+@media screen and (min-width:481px) and (max-width:560px){
+    .display_block2{
+        display:block
+    }
+    .nofloat2{
+        float:none;
+        width:100%
+    }
+    .nofloat_l2{
+        float: none;
+        margin: 0 auto;
+        width: 70%;
+    }
+    .txt_align2{
+        text-align: center;
+    }
+}
+@media screen and (min-width:561px) and (max-width:620px){
+    .display_block3{
+        display:block
+    }
+    .nofloat3{
+        float:none;
+        width:100%
+    }
+    .nofloat_l3{
+        float: none;
+        margin: 0 auto;
+        width: 70%;
+    }
+    .txt_align3{
+        text-align: center;
+    }
+}
+@media screen and (min-width:621px) and (max-width:768px){
+    .display_block4{
+        display:block
+    }
+    .nofloat4{
+        float:none;
+        width:100%
+    }
+    .nofloat_l4{
+        float: none;
+        margin: 0 auto;
+        width: 70%;
+    }
+    .txt_align4{
+        text-align: center;
+    }
+}
+@media screen and (min-width:769px) and (max-width:992px){
+    .display_block5{
+        display:block
+    }
+    .nofloat5{
+        float:none;
+        width:100%
+    }
+    .nofloat_l5{
+        float: none;
+        margin: 0 auto;
+        width: 70%;
+    }
+    .txt_align5{
+        text-align: center;
+    }
+}
+@media screen and (min-width:993px) and (max-width:1024px){
+    .display_block6{
+        display:block
+    }
+    .nofloat6{
+        float:none;
+        width:100%
+    }
+    .nofloat_l6{
+        float: none;
+        margin: 0 auto;
+        width: 70%;
+    }
+    .txt_align6{
+        text-align: center;
+    }
+}
