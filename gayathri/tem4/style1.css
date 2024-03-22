@@ -1,0 +1,42 @@
+body{
+    margin: auto;
+    padding: 0;
+    background-color: #00802b;
+    padding-top: 10px;
+}
+.text_center{
+    text-align: center;
+}
+.border{
+    border: 1px solid black;
+}
+.margin{
+    margin-bottom: 10px;
+}
+.padding{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.padding1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.bgcolor{
+    background-color:  #b3ffb3;
+}
+.margin_auto{
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.padding2{
+    padding-bottom: 70px;
+}
+.bgcolor1{
+    background-color: #ffffff;
+}
+.width{
+    width: 95%;
+}
+.text_indent{
+    text-indent: 10px;
+}
