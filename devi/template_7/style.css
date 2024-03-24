@@ -61,7 +61,7 @@ body{
     padding-bottom: 270px;
 }
 .padding3 {
-    padding-bottom: 163px;
+    padding-bottom: 50px;
 }
 .padding4 {
     padding-top: 30px;
@@ -120,6 +120,9 @@ body{
 .line_spacing {
     line-height: 2
 }
+.line {
+    border: 6px solid #441e13;
+}
 
 /* 320px to 480px
 481px to 560px
@@ -136,6 +139,7 @@ body{
     }
     .nofloat1{
         float:none;
+        margin: 0 auto;
         width:100%
     }
     .txt_align1{
@@ -144,91 +148,96 @@ body{
     .nofloat_l1{
         float: none;
         margin: 0 auto;
-        width: 70%;
+        width: auto;
     }
 }
 @media screen and (min-width:481px) and (max-width:560px){
-    .display_block2{
+    .display_block1{
         display:block
     }
-    .nofloat2{
+    .nofloat1{
         float:none;
+        margin: 0 auto;
         width:100%
     }
-    .nofloat_l2{
+    .nofloat_l1{
         float: none;
         margin: 0 auto;
-        width: 70%;
+        width: 90%;
     }
-    .txt_align2{
+    .txt_align1{
         text-align: center;
     }
 }
 @media screen and (min-width:561px) and (max-width:620px){
-    .display_block3{
+    .display_block1{
         display:block
     }
-    .nofloat3{
+    .nofloat1{
         float:none;
+        margin: 0 auto;
         width:100%
     }
-    .nofloat_l3{
+    .nofloat_l1{
         float: none;
         margin: 0 auto;
-        width: 70%;
+        width: 80%;
     }
-    .txt_align3{
+    .txt_align1{
         text-align: center;
     }
 }
 @media screen and (min-width:621px) and (max-width:768px){
-    .display_block4{
+    .display_block1{
         display:block
     }
-    .nofloat4{
+    .nofloat1{
         float:none;
+        margin: 0 auto;
         width:100%
     }
-    .nofloat_l4{
+    .nofloat_l1{
         float: none;
         margin: 0 auto;
         width: 70%;
     }
-    .txt_align4{
+    .txt_align1{
         text-align: center;
     }
 }
 @media screen and (min-width:769px) and (max-width:992px){
-    .display_block5{
+    .display_block1{
         display:block
     }
-    .nofloat5{
+    .nofloat1{
         float:none;
+        margin: 0 auto;
         width:100%
     }
-    .nofloat_l5{
+    .nofloat_l1{
         float: none;
         margin: 0 auto;
-        width: 70%;
+        width: 60%;
     }
-    .txt_align5{
+    .txt_align1{
         text-align: center;
     }
 }
 @media screen and (min-width:993px) and (max-width:1024px){
-    .display_block6{
+    .display_block1{
         display:block
     }
-    .nofloat6{
+    .nofloat1{
         float:none;
-        width:100%
+        margin: 0 auto;
+        width: auto;
     }
-    .nofloat_l6{
+    .nofloat_l1{
         float: none;
         margin: 0 auto;
-        width: 70%;
+        width: auto;
     }
-    .txt_align6{
+    .txt_align1{
         text-align: center;
     }
 }
