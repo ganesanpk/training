@@ -2,9 +2,7 @@ body{
     margin: auto;
     padding: 0;
     background-color: #00802b;
-}
-.text_center{
-    text-align: center;
+    padding-top: 10px;
 }
 .border{
     border: 1px solid black;
@@ -16,7 +14,7 @@ body{
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.padding1{
+padding1{
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -28,6 +26,7 @@ body{
     margin-bottom: 10px;
 }
 .padding2{
+    padding-top: 70px;
     padding-bottom: 70px;
 }
 .bgcolor1{
@@ -39,3 +38,24 @@ body{
 .text_indent{
     text-indent: 10px;
 }
+.float_left{
+    float: left;
+}
+.float_right{
+    float: right;
+}
+.width60{
+    width: 60%;
+}
+.padding3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.padding4{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.width30{
+    width: 30%;
+}
+
