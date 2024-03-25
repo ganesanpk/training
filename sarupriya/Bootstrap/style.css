@@ -172,7 +172,7 @@ body{
     background-color: #626262;
 }
 .bg_j{
-    background-image: linear-gradient(to bottom,#626262,#333333);
+    background-image: linear-gradient(to bottom,#bbb5b5,#333333);
 }
 .bg_k{
     background-image: linear-gradient(to bottom,#fadfdb,#ed9180);
@@ -201,10 +201,6 @@ body{
     .margin1{
         margin: 0 auto;
     }
-    .width2{
-        width: 60%;
-        padding-top: 10px;
-    }
 }
 
 @media screen and (min-width:481px) and (max-width:560px){
@@ -220,8 +216,8 @@ body{
     .margin1{
         margin: 0 auto;
     }
-    .width2{
-        width: 80%;
+    .width4{
+        width: 50%;
         padding-top: 10px;
     }
 }
@@ -239,8 +235,8 @@ body{
     .margin1{
         margin: 0 auto;
     }
-    .width2{
-        width: 60%;
+    .width4{
+        width: 50%;
         padding-top: 10px;
     }
 }
@@ -258,8 +254,38 @@ body{
     .margin1{
         margin: 0 auto;
     }
+}
+@media screen and (min-width:768px) and (max-width:991px){
+    .nofloat{
+        margin-top: 10px;
+    }
+    .txt_align{
+        text-align: center;
+    }
     .width2{
-        width: 60%;
-        padding-top: 10px;
+        width: 33%;
+    }
+    .width3{
+        width: 115%;
+    }
+    .margin1{
+        margin: 0 auto;
+    }
+    .width5{
+        width: 25%;
+    }
+}
+@media screen and (min-width:992px) and (max-width:1199px){
+    .txt_align{
+        text-align: center;
+    }
+    .width3{
+        width: 115%;
+    }
+    .margin1{
+        margin: 0 auto;
+    }
+    .width6{
+        width: 20%;
     }
 }
