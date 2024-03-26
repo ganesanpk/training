@@ -1,61 +1,109 @@
-body{
+body {
     margin: auto;
     padding: 0;
     background-color: #00802b;
     padding-top: 10px;
 }
-.border{
+
+.border {
     border: 1px solid black;
 }
-.margin{
+
+.margin {
     margin-bottom: 10px;
 }
-.padding{
+
+.padding {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-padding1{
+
+.padding1 {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.bgcolor{
-    background-color:  #b3ffb3;
+
+.bgcolor {
+    background-color: #b3ffb3;
 }
-.margin_auto{
+
+.margin_auto {
     margin: 0 auto;
     margin-bottom: 10px;
 }
-.padding2{
+
+.padding2 {
     padding-top: 70px;
     padding-bottom: 70px;
 }
-.bgcolor1{
+
+.bgcolor1 {
     background-color: #ffffff;
 }
-.width{
+
+.width {
     width: 95%;
 }
-.text_indent{
+
+.text_indent {
     text-indent: 10px;
 }
-.float_left{
+
+.float_left {
     float: left;
 }
-.float_right{
+
+.float_right {
     float: right;
 }
-.width60{
-    width: 60%;
+
+.width68 {
+    width: 68%;
 }
-.padding3{
+
+.padding3 {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.padding4{
+
+.padding4 {
     padding-top: 20px;
     padding-bottom: 20px;
 }
-.width30{
-    width: 30%;
+
+.width25 {
+    width: 25%;
 }
 
+.widthA {
+    width: 25%;
+   height: 48px;
+}
+.marginA {
+    margin-bottom: 10px;
+}
+
+.margin_autoA {
+    margin: 0 auto;
+    margin-bottom: 10px;
+   margin-right: 40px;
+}
+
+.paddingA {
+  padding-top: 207px;
+  padding-bottom: 18px
+}
+
+.margin_autoB {
+    margin: 0 auto;
+    margin-bottom: 10px;
+   margin-left: 40px;
+}
+.text_indentA {
+    text-indent: 10px;
+    position: absolute;
+
+     top: 216px;
+    text-align: left;
+
+}
