@@ -274,9 +274,6 @@ body{
     .width5{
         width: 25%;
     }
-    .text{
-        text-align: left;
-    }
 }
 @media screen and (min-width:992px) and (max-width:1199px){
     .txt_align{
@@ -291,7 +288,5 @@ body{
     .width6{
         width: 20%;
     }
-    .text{
-        text-align: left;
-    }
+    
 }
