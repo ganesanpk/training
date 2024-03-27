@@ -65,7 +65,7 @@ body{
 }
 .padding4 {
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 25px;
 }
 .padding5 {
     padding-bottom: 20px;
@@ -163,7 +163,7 @@ body{
     .nofloat_l1{
         float: none;
         margin: 0 auto;
-        width: 90%;
+        /* width: 90%; */
     }
     .txt_align1{
         text-align: center;
@@ -181,7 +181,7 @@ body{
     .nofloat_l1{
         float: none;
         margin: 0 auto;
-        width: 80%;
+        /* width: 80%; */
     }
     .txt_align1{
         text-align: center;
@@ -199,16 +199,16 @@ body{
     .nofloat_l1{
         float: none;
         margin: 0 auto;
-        width: 70%;
+        /* width: 70%; */
     }
     .txt_align1{
         text-align: center;
     }
 }
 @media screen and (min-width:769px) and (max-width:992px){
-    .display_block1{
+    /* .display_block1{
         display:block
-    }
+    } */
     .nofloat1{
         float:none;
         margin: 0 auto;
@@ -217,16 +217,16 @@ body{
     .nofloat_l1{
         float: none;
         margin: 0 auto;
-        width: 60%;
+        /* width: 60%; */
     }
     .txt_align1{
         text-align: center;
     }
 }
 @media screen and (min-width:993px) and (max-width:1024px){
-    .display_block1{
+    /* .display_block1{
         display:block
-    }
+    } */
     .nofloat1{
         float:none;
         margin: 0 auto;
@@ -235,7 +235,7 @@ body{
     .nofloat_l1{
         float: none;
         margin: 0 auto;
-        width: auto;
+        /* width: auto; */
     }
     .txt_align1{
         text-align: center;
