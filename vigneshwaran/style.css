@@ -1,0 +1,17 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+.text{
+    text-align: center;
+}
+.barder{
+    border: 1px solid orange;
+}
+.margin{
+    margin-bottom: 10px;
+}
+.padding{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
