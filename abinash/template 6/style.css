@@ -6,31 +6,31 @@ body{
     float: left;    
 }
 .width_left{
-    width: 38%;
+    width: 40%;
 }
 .width_right{
     width: 58%;
 }
 .width_l1{
-    width: 25%;
+    width: 27%;
 }
 .width_l2{
-    width: 68%;
+    width: 72%;
 }
 .width_l3{
-    width: 25%;
+    width: 24.25%;
 }
 .margin_r3{
-    margin-right: 30px;
+    margin-right: 1%;
 }
 .float_right{
     float: right;
 }
 .width_r1{
-    width: 65%;
+    width: 70%;
 }
 .width_r2{
-    width: 30%;
+    width: 28%;
 }
 .margin_r{
     margin-right: 20px;
@@ -43,12 +43,12 @@ body{
 }
 .button{
      display: inline-block;
-     width: 195px;
+     width: 210px;
      background-color: #77bbfa;
-     font-size: 15px;
+     font-size: 16px;
      border-radius: 20px;
-     padding-top: 13px;
-     padding-bottom: 12px;
+     padding-top: 15px;
+     padding-bottom: 15px;
      font-weight: bold;
      color: white;
 }
@@ -76,11 +76,11 @@ body{
     margin-top: 70px;
 }
 .padding{
-    padding-top: 20px;    
+    padding-top: 30px;    
 }
 .padding1{
     padding-top: 15px;
-    padding-bottom: 7px;
+    padding-bottom: 6px;
 }
 .fa-square-youtube{
     color: #77bbfa;
@@ -186,7 +186,7 @@ body{
     padding-bottom: 50px;
 }
 .font_size{
-    font-size: 25px;
+    font-size: 30px;
 }
 .font{
     font-family: sans-serif;
