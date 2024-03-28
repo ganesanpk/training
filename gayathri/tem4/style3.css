@@ -29,12 +29,11 @@ body {
 .padding1 {
     padding-bottom: 10px;
 }
-.margin_auto {
+.margin_auto{
     margin: 0 auto;
-    margin-bottom: 10px;
 }
 .width {
-    width: 95%;
+    width: 98%;
 }
 .text_indent {
     text-indent: 10px;
@@ -66,23 +65,10 @@ body {
 .bgcolor3 {
     background-color: #b3ffb3;
 }
-.aside_container {
-    position: relative;
-    height: 100%;
-}.aside_left,
-.aside_right {
-    position: absolute;
-    top: 0;
-}
-.aside_left {
-    left: 0;
-}
-.aside_right {
-    right: 0;
-}
+
 .third_aside {
     clear: both;
-    margin-top: 146px; 
+    /* margin-top: 146px;  */
 }
 .aside_contentA {
     padding: 50px;
