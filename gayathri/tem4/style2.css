@@ -22,88 +22,65 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-
 .bgcolor {
     background-color: #b3ffb3;
 }
-
 .margin_auto {
     margin: 0 auto;
     margin-bottom: 10px;
 }
-
 .padding2 {
     padding-top: 70px;
     padding-bottom: 70px;
 }
-
 .bgcolor1 {
     background-color: #ffffff;
 }
-
 .width {
     width: 95%;
 }
-
 .text_indent {
     text-indent: 10px;
 }
-
 .float_left {
     float: left;
 }
-
 .float_right {
     float: right;
 }
-
-.width68 {
+.width68{
     width: 68%;
 }
-
 .padding3 {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-
 .padding4 {
     padding-top: 20px;
     padding-bottom: 20px;
 }
-
-.width25 {
-    width: 25%;
-}
-
-.widthA {
-    width: 25%;
-   height: 48px;
+.width30 {
+    width: 30%;
 }
 .marginA {
     margin-bottom: 10px;
 }
-
-.margin_autoA {
-    margin: 0 auto;
-    margin-bottom: 10px;
-   margin-right: 40px;
-}
-
 .paddingA {
   padding-top: 207px;
   padding-bottom: 18px
 }
-
-.margin_autoB {
-    margin: 0 auto;
-    margin-bottom: 10px;
-   margin-left: 40px;
+.text_center{
+    text-align: center;
 }
-.text_indentA {
-    text-indent: 10px;
-    position: absolute;
-
-     top: 216px;
-    text-align: left;
-
+.padding6{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.padding7{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.padding8{
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
