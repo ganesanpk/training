@@ -42,43 +42,34 @@ body {
 .bgcolor1 {
     background-color: #b3ffb3;
 }
-
 .bgcolor2 {
     background-color: #ffffff;
 }
-
 .text_center {
     text-align: center;
 }
-
 .padding2 {
     padding-top: 40px;
     padding-bottom: 40px;
 }
-
 .padding3 {
     padding-top: 50px;
     padding-bottom: 50px;
 }
-
 .padding6{
     padding-top: 70px;
     padding-bottom: 70px;
 }
-
 .width48 {
     width: 48%;
 }
-
 .bgcolor3 {
     background-color: #b3ffb3;
 }
-
 .aside_container {
     position: relative;
     height: 100%;
-}
-.aside_left,
+}.aside_left,
 .aside_right {
     position: absolute;
     top: 0;
