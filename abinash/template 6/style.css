@@ -27,7 +27,7 @@ body{
     float: right;
 }
 .width_r1{
-    width: 70%;
+    width: 75%;
 }
 .width_r2{
     width: 28%;
@@ -76,7 +76,8 @@ body{
     margin-top: 70px;
 }
 .padding{
-    padding-top: 30px;    
+    padding-top: 10px;  
+    padding-bottom: 10px;  
 }
 .padding1{
     padding-top: 15px;
@@ -202,4 +203,7 @@ body{
 }
 .font_size3{
     font-size: 50px;
+}
+.width_25{
+    width: 25%;
 }
