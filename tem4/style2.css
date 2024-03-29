@@ -2,10 +2,6 @@ body{
     margin: auto;
     padding: 0;
     background-color: #00802b;
-    padding-top: 10px;
-}
-.text_center{
-    text-align: center;
 }
 .border{
     border: 1px solid black;
@@ -17,18 +13,19 @@ body{
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.padding1{
+padding1{
     padding-top: 10px;
     padding-bottom: 10px;
 }
 .bgcolor{
-    background-color: #8cff66;
+    background-color:  #b3ffb3;
 }
 .margin_auto{
     margin: 0 auto;
     margin-bottom: 10px;
 }
 .padding2{
+    padding-top: 70px;
     padding-bottom: 70px;
 }
 .bgcolor1{
@@ -39,4 +36,25 @@ body{
 }
 .text_indent{
     text-indent: 10px;
+}
+.float_left{
+    float: left;
+}
+.float_right{
+    float: right;
+}
+.width60{
+    width: 60%;
+}
+.padding3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.padding4{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.width40{
+    width: 30%;
+
 }

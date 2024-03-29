@@ -7,9 +7,6 @@ body {
 .border {
     border: 1px solid black;
 }
-.margin {
-    margin-bottom: 10px;
-}
 .padding {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -26,21 +23,20 @@ body {
 .width30 {
     width: 30%;
 }
-.padding1 {
-    padding-bottom: 10px;
+.margin {
+    margin-bottom: 10px;
 }
 .margin_auto {
     margin: 0 auto;
-    margin-bottom: 10px;
 }
 .width {
-    width: 95%;
+    width: 98%;
 }
 .text_indent {
     text-indent: 10px;
 }
 .bgcolor1 {
-    background-color: #b3ffb3;
+    background-color: #8cff66;
 }
 .bgcolor2 {
     background-color: #ffffff;
@@ -48,15 +44,7 @@ body {
 .text_center {
     text-align: center;
 }
-.padding2 {
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
 .padding3 {
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-.padding6{
     padding-top: 70px;
     padding-bottom: 70px;
 }
@@ -66,45 +54,15 @@ body {
 .bgcolor3 {
     background-color: #b3ffb3;
 }
-.aside_container {
-    position: relative;
-    height: 100%;
-}.aside_left,
-.aside_right {
-    position: absolute;
-    top: 0;
-}
-.aside_left {
-    left: 0;
-}
-.aside_right {
-    right: 0;
-}
-.third_aside {
-    clear: both;
-    margin-top: 146px; 
-}
-.aside_contentA {
-    padding: 50px;
-}
-.aside_contentB {
-    padding: 10px;
-}
-.aside_left,
-.aside_right,
-.third_aside {
-    height: 108px; 
-}
-.padding5 {
-padding: 7px;
-}
-.widthS {
-    width: 18%;
-}
-.padding3{
-    padding-left: 0px;
-}
 .padding6{
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 90px;
+    padding-bottom: 90px;
 }
+.padding7{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.width90{
+    width: 90%;
+}
+

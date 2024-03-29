@@ -1,6 +1,5 @@
 body {
     margin: auto;
-    padding: 0;
     background-color: #00802b;
     padding-top: 10px;
 }
@@ -14,26 +13,17 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.padding1 {
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
 .bgcolor {
-    background-color: #b3ffb3;
+    background-color: #8cff66;
 }
 .margin_auto {
     margin: 0 auto;
-    margin-bottom: 10px;
-}
-.padding2 {
-    padding-top: 70px;
-    padding-bottom: 70px;
 }
 .bgcolor1 {
     background-color: #ffffff;
 }
 .width {
-    width: 95%;
+    width: 98%;
 }
 .text_indent {
     text-indent: 10px;
@@ -47,20 +37,8 @@ body {
 .width68{
     width: 68%;
 }
-.padding3 {
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-.padding4 {
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
 .width30 {
     width: 30%;
-}
-.paddingA {
-  padding-top: 207px;
-  padding-bottom: 18px
 }
 .text_center{
     text-align: center;
@@ -76,4 +54,7 @@ body {
 .padding8{
     padding-top: 20px;
     padding-bottom: 20px;
+}
+.width90{
+    width: 90%;
 }
