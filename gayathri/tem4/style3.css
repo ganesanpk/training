@@ -26,7 +26,7 @@ body {
 .margin {
     margin-bottom: 10px;
 }
-.margin_auto{
+.margin_auto {
     margin: 0 auto;
 }
 .width {
@@ -54,41 +54,13 @@ body {
 .bgcolor3 {
     background-color: #b3ffb3;
 }
-<<<<<<< HEAD
-=======
-
-.third_aside {
-    clear: both;
-    /* margin-top: 146px;  */
-}
-.aside_contentA {
-    padding: 50px;
-}
-.aside_contentB {
-    padding: 10px;
-}
-.aside_left,
-.aside_right,
-.third_aside {
-    height: 108px; 
-}
-.padding5 {
-padding: 7px;
-}
-.widthS {
-    width: 18%;
-}
-.padding3{
-    padding-left: 0px;
-}
->>>>>>> 6387a4b4081580fdc0c4aa7f96e4c6bcca0768eb
 .padding6{
     padding-top: 90px;
     padding-bottom: 90px;
 }
 .padding7{
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
 }
 .width90{
     width: 90%;
