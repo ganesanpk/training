@@ -55,8 +55,8 @@ body {
     background-color: #b3ffb3;
 }
 .padding6{
-    padding-top: 90px;
-    padding-bottom: 90px;
+    padding-top: 91px;
+    padding-bottom: 91px;
 }
 .padding7{
     padding-top: 20px;
@@ -64,5 +64,8 @@ body {
 }
 .width90{
     width: 90%;
+}
+.margin1{
+    margin-bottom: 10px;
 }
 
