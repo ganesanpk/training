@@ -28,9 +28,12 @@ body{
 }
 .width_r1{
     width: 75%;
+<<<<<<< HEAD
 }
 .width_25{
     width: 25%;
+=======
+>>>>>>> 4a62af2bbd149ec6720206b12d96f798610f32d1
 }
 .width_r2{
     width: 22%;
@@ -79,9 +82,14 @@ body{
     margin-top: 70px;
 }
 .padding{
+<<<<<<< HEAD
     padding-top: 10px;
     padding-bottom: 10px;
          
+=======
+    padding-top: 10px;  
+    padding-bottom: 10px;  
+>>>>>>> 4a62af2bbd149ec6720206b12d96f798610f32d1
 }
 .padding1{
     padding-top: 7px;
@@ -214,4 +222,7 @@ body{
 }
 .font_size3{
     font-size: 50px;
+}
+.width_25{
+    width: 25%;
 }
