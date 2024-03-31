@@ -36,7 +36,7 @@ body {
     text-indent: 10px;
 }
 .bgcolor1 {
-    background-color: #8cff66;
+    background-color: #a3d692;
 }
 .bgcolor2 {
     background-color: #ffffff;
@@ -65,7 +65,13 @@ body {
 .width90{
     width: 90%;
 }
+<<<<<<< HEAD
+.marginn{
+    margin-bottom: 10px;
+}
+=======
 .margin1{
     margin-bottom: 10px;
 }
 
+>>>>>>> 95165447ddbc5bc44f4d31740c1388924a02b6ba
