@@ -6,16 +6,16 @@ body{
     float: left;    
 }
 .width_left{
-    width: 40%;
+    width: 30%;
 }
 .width_right{
-    width: 58%;
+    width: 65%;
 }
 .width_l1{
-    width: 27%;
+    width: 25%;
 }
 .width_l2{
-    width: 75%;
+    width: 50%;
 }
 .width_l3{
     width: 24.25%;
@@ -28,15 +28,9 @@ body{
 }
 .width_r1{
     width: 75%;
-<<<<<<< HEAD
-}
-.width_25{
-    width: 25%;
-=======
->>>>>>> 4a62af2bbd149ec6720206b12d96f798610f32d1
 }
 .width_r2{
-    width: 22%;
+    width: 28%;
 }
 .margin_r{
     margin-right: 20px;
@@ -49,7 +43,7 @@ body{
 }
 .button{
      display: inline-block;
-     width: 210px;
+     width: 190px;
      background-color: #77bbfa;
      font-size: 14px;
      border-radius: 20px;
@@ -82,17 +76,12 @@ body{
     margin-top: 70px;
 }
 .padding{
-<<<<<<< HEAD
-    padding-top: 10px;
-    padding-bottom: 10px;
-         
-=======
     padding-top: 10px;  
-    padding-bottom: 10px;  
->>>>>>> 4a62af2bbd149ec6720206b12d96f798610f32d1
+    padding-bottom: 20px;  
 }
 .padding1{
-    padding-top: 7px;
+    padding-top: 12px;
+    padding-bottom: 15px;
      
 }
 .padding2{
@@ -144,8 +133,14 @@ body{
 .width_b{
     width: 85%;
 }
+.width_d{
+    width: 30%;
+}
 .margin_a{
     margin: 0 auto;
+}
+.txt{
+    text-decoration: none;
 }
 .linespacing{
     line-height: 20px;
@@ -206,7 +201,7 @@ body{
     padding-bottom: 50px;
 }
 .font_size{
-    font-size: 27px;
+    font-size: 24px;
 }
 .font{
     font-family: sans-serif;
