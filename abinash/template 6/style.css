@@ -27,7 +27,7 @@ body{
     float: right;
 }
 .width_r1{
-    width: 87%;
+    width: 85%;
 }
  
 .width_r2{
@@ -57,8 +57,8 @@ body{
 .text_align{
     text-align: center;
 }
-.padding2{
-    padding-top: 15px;
+.padding3{
+    padding-top: 20px;
     padding-bottom: 9px;
     
 }
@@ -79,11 +79,11 @@ body{
     margin-top: 70px;
 }
 .padding{
-    padding-top: 10px;  
-    padding-bottom: 10px;  
+    padding-top: 5px;  
+    padding-bottom: 5px;
 }
 .padding1{
-    padding-top: 12px;
+    padding-top: 14px;
     padding-bottom: 9px;
      
 }
@@ -120,10 +120,7 @@ body{
 .text_align1{
     text-align: right;
 }
-.padding3{
-    padding-top: 50px;
-    padding-bottom: 50px;
-} 
+ 
 .margin_r1{
     margin-right: 10px;
 }
@@ -204,7 +201,7 @@ body{
     padding-bottom: 50px;
 }
 .font_size{
-    font-size: 18px;
+    font-size: 25px;
 }
 .font{
     font-family: sans-serif;
