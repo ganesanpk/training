@@ -81,7 +81,7 @@
 let da = new Date();
 let date = da.getDate();
 let day = da.getDay();
-const days = ['Mon','Tue','Wed','Thu','Fri','Sat'];
+const days = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
 let month = da.getMonth();
 const mon = ['01','02','03','04','05','06','07','08','09','10','11','12'];
 const months = ['January','February','March','April','May','June','July','August',
@@ -89,16 +89,16 @@ const months = ['January','February','March','April','May','June','July','August
 let year = da.getFullYear();
 console.log(date + "-" + mon[month] + "-" + year);
 console.log(date+" "+days[day]+" - "+mon[month]+" "+months[month]+" - "+year);
-var birthDate = new Date("2000/03/31");
+var birthDate = new Date("2003/06/18");
 var age = da.getFullYear() - birthDate.getFullYear();
 var m = da.getMonth() - birthDate.getMonth();
-if (m < 0 || (m == 0 && da.getDate() < birthDate.getDate())) {
+if (m < 0 || (m === 0 && da.getDate() < birthDate.getDate())) {
     age-=1;
 }
 if(m<0){
     m*=-1;
 }
-if(m!=0){
+if(m!=0 && m < birthDate.getMonth()){
     m=12-m;
 }
 console.log(age+" "+m+" Month");
