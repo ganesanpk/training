@@ -114,7 +114,9 @@ body{
 }
 .bg_image{
     background-image: url(img.jpeg);
-    background-position: 100px;
+    /* background-position: 100px; */
+    background-repeat: none;
+    background-size: cover;
     height: 200px;
 }
 .text_align1{
@@ -220,4 +222,7 @@ body{
 }
 .width_25{
     width: 25%;
+}
+a{
+    text-decoration: none;
 }
