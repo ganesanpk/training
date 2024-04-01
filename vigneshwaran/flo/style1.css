@@ -12,8 +12,8 @@ body{
     border: 1px solid black;
 }
 .padding{
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .float_left{
     float: left;
@@ -28,6 +28,6 @@ body{
     width: 39%;
 }
 .padding_right{
-    padding-top: 34%;
-    padding-bottom: 34%;
+    padding-top: 34px;
+    padding-bottom: 34px;
 }
