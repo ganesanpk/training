@@ -103,8 +103,8 @@ if(m!=0){
 }
 console.log(age+" "+m+" Month");
 if(age>18){
-    console.log("This given date of birth is an adult age");
+    console.log("This given date of birth candidate is an adult");
 }
 else{
-    console.log("This given date of birth is not an adult age")
+    console.log("This given date of birth candidate is not an adult")
 }
