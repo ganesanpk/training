@@ -6,16 +6,16 @@ body{
     float: left;    
 }
 .width_left{
-    width: 40%;
+    width: 30%;
 }
 .width_right{
-    width: 58%;
+    width: 65%;
 }
 .width_l1{
-    width: 27%;
+    width: 10%;
 }
 .width_l2{
-    width: 75%;
+    width: 69%;
 }
 .width_l3{
     width: 24.25%;
@@ -27,16 +27,11 @@ body{
     float: right;
 }
 .width_r1{
-    width: 75%;
-<<<<<<< HEAD
+    width: 85%;
 }
-.width_25{
-    width: 25%;
-=======
->>>>>>> 4a62af2bbd149ec6720206b12d96f798610f32d1
-}
+ 
 .width_r2{
-    width: 22%;
+    width: 28%;
 }
 .margin_r{
     margin-right: 20px;
@@ -49,21 +44,23 @@ body{
 }
 .button{
      display: inline-block;
-     width: 210px;
+     width: 160px;
      background-color: #77bbfa;
-     font-size: 14px;
+     font-size: 13px;
      border-radius: 20px;
-     padding-top: 13px;
-     padding-bottom: 13px;
+     padding-top: 10px;
+     padding-bottom: 10px;
      font-weight: bold;
      color: white;
+     text-align: center;
 }
 .text_align{
     text-align: center;
 }
-.padding2{
-    padding-top: 10px;
-    padding-bottom: 15px;
+.padding3{
+    padding-top: 20px;
+    padding-bottom: 9px;
+    
 }
 .txt_size{
     font-size: 30px;
@@ -82,17 +79,12 @@ body{
     margin-top: 70px;
 }
 .padding{
-<<<<<<< HEAD
-    padding-top: 10px;
-    padding-bottom: 10px;
-         
-=======
-    padding-top: 10px;  
-    padding-bottom: 10px;  
->>>>>>> 4a62af2bbd149ec6720206b12d96f798610f32d1
+    padding-top: 5px;  
+    padding-bottom: 5px;
 }
 .padding1{
-    padding-top: 7px;
+    padding-top: 14px;
+    padding-bottom: 9px;
      
 }
 .padding2{
@@ -122,16 +114,15 @@ body{
 }
 .bg_image{
     background-image: url(img.jpeg);
-    background-position: 100px;
+    /* background-position: 100px; */
+    background-repeat: none;
+    background-size: cover;
     height: 200px;
 }
 .text_align1{
     text-align: right;
 }
-.padding3{
-    padding-top: 50px;
-    padding-bottom: 50px;
-} 
+ 
 .margin_r1{
     margin-right: 10px;
 }
@@ -144,8 +135,14 @@ body{
 .width_b{
     width: 85%;
 }
+.width_d{
+    width: 30%;
+}
 .margin_a{
     margin: 0 auto;
+}
+.txt{
+    text-decoration: none;
 }
 .linespacing{
     line-height: 20px;
@@ -206,7 +203,7 @@ body{
     padding-bottom: 50px;
 }
 .font_size{
-    font-size: 27px;
+    font-size: 25px;
 }
 .font{
     font-family: sans-serif;
@@ -225,4 +222,7 @@ body{
 }
 .width_25{
     width: 25%;
+}
+a{
+    text-decoration: none;
 }
