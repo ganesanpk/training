@@ -63,14 +63,14 @@
 // let n4=l%m;
 // console.log(n4);
 
-var dat = new Date();
-var day = dat.getDay();
-const days=['sun','monday','tuesday','wednessday','thusday','friday','saturday'];
-console.log(days[day]);
-var month = dat.getMonth();
-console.log(month);
-var dates = dat.getDate();
-console.log(dates);
+// var dat = new Date();
+// var day = dat.getDay();
+// const days=['sun','monday','tuesday','wednessday','thusday','friday','saturday'];
+// console.log(days[day]);
+// var month = dat.getMonth();
+// console.log(month);
+// var dates = dat.getDate();
+// console.log(dates);
 
 // output
 // 01-04-2024
@@ -78,3 +78,33 @@ console.log(dates);
 // give dob candidate adult or not
 // age with month
 
+let da = new Date();
+let date = da.getDate();
+let day = da.getDay();
+const days = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+let month = da.getMonth();
+const mon = ['01','02','03','04','05','06','07','08','09','10','11','12'];
+const months = ['January','February','March','April','May','June','July','August',
+                'September','October','November','December'];
+let year = da.getFullYear();
+console.log(date + "-" + mon[month] + "-" + year);
+console.log(date+" "+days[day]+" - "+mon[month]+" "+months[month]+" - "+year);
+var birthDate = new Date("2003/06/18");
+var age = da.getFullYear() - birthDate.getFullYear();
+var m = da.getMonth() - birthDate.getMonth();
+if (m < 0 || (m === 0 && da.getDate() < birthDate.getDate())) {
+    age-=1;
+}
+if(m<0){
+    m*=-1;
+}
+if(m!=0 && m < birthDate.getMonth()){
+    m=12-m;
+}
+console.log(age+" "+m+" Month");
+if(age>18){
+    console.log("This given date of birth candidate is an adult");
+}
+else{
+    console.log("This given date of birth candidate is not an adult")
+}
