@@ -19,6 +19,11 @@ body{
     background-color:rgb(12, 120, 97);
 }
 .font{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+.font0{
     font-size: 15px;
 }
 .float-l{
@@ -28,12 +33,16 @@ body{
     float: right;
 }
 .width-l{
-    width: 39%;
+    width: 34%;
 }
 .width-r{
-    width: 60%;
+    width: 65%;
 }
 .padding2{
-    padding-top: 45px;
+    padding-top: 100px;
     padding-bottom: 100px;
+}
+.padding3{
+    padding-top: 1px;
+    padding-bottom: 5px;
 }
