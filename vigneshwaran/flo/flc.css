@@ -1,0 +1,39 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+.text{
+    text-align: center;
+}
+.margin{
+    margin-bottom: 15px;
+}
+.padding{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.border{
+    border: 15px solid rgb(12, 120, 97);
+}
+.bg-color{
+    background-color:rgb(12, 120, 97);
+}
+.font{
+    font-size: 15px;
+}
+.float-l{
+    float: left;
+}
+.float-r{
+    float: right;
+}
+.width-l{
+    width: 39%;
+}
+.width-r{
+    width: 60%;
+}
+.padding2{
+    padding-top: 45px;
+    padding-bottom: 100px;
+}
