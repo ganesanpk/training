@@ -79,7 +79,7 @@ body{
     border-right: 2px solid #7a4334;
 }
 .border1{
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid rgb(210, 213, 214);
 }
 .margin1{
     margin-bottom: 12px;
@@ -122,7 +122,7 @@ body{
     padding-bottom: 25px;
 }
 .padding8{
-    padding-bottom: 290px;
+    padding-bottom: 333px;
 }
 .width_b{
     width: 90%;
