@@ -1,0 +1,54 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+.text{
+    text-align: center;
+}
+.margin{
+    margin-bottom: 15px;
+}
+.padding{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.border{
+    border: 5px solid black;
+}
+.border1{
+    border: 3px solid black;
+}
+.border2{
+    border: 2px solid black;
+}
+.wfl{
+    float: left;
+    width: 60%;
+}
+.wfr{
+    float: right;
+    width: 40%;
+}
+.color{
+    background-color: rgb(255, 246, 213);
+}
+.color1{
+    background-color: rgb(227, 222, 219);
+}
+.color2{
+    background-color: rgb(219, 222, 227);
+}
+.padding1{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.color3{
+    background-color: rgb(255, 255, 255) ;
+}
+.color4{
+    background-color: rgb(213, 229, 255) ;
+}
+.width{
+    width: 50%;
+    float: none;
+}
