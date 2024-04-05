@@ -1,19 +1,18 @@
 body{
     margin: 0 auto;
     padding: 0;
+    background-color: black;
 }
 .text{
     text-align: center;
 }
-.margin{
-    margin-bottom: 15px;
-}
+
 .padding{
     padding-top: 10px;
     padding-bottom: 10px;
 }
 .border{
-    border: 5px solid black;
+    margin-bottom: 10px;
 }
 .border1{
     border: 3px solid black;
@@ -68,4 +67,8 @@ body{
 }
 .pd{
     padding-top: 10px;
+}
+.width_main{
+    width: 99%;
+    margin: 0 auto;
 }
