@@ -1,0 +1,49 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+.text{
+    text-align: center;
+}
+.margin{
+    margin-bottom: 15px;
+}
+.padding{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.border{
+    border: 15px solid rgb(12, 120, 97);
+}
+.bg-color{
+    background-color:rgb(12, 120, 97);
+}
+.font{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+.font0{
+    font-size: 15px;
+
+}
+.float-l{
+    float: left;
+}
+.float-r{
+    float: right;
+}
+.width-l{
+    width: 34%;
+}
+.width-r{
+    width: 65%;
+}
+.padding2{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.padding3{
+    padding-top: 1px;
+    padding-bottom: 5px;
+}

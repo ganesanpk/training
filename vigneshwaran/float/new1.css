@@ -13,10 +13,10 @@ body{
     padding-bottom: 10px;
 }
 .border{
-    border: 1px solid white;
+    border: 15px solid white;
 }
 .baground{
-    background-color: green;
+    background-color:#0C7861;
 }
 .float-left{
     float: left;
