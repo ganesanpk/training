@@ -97,8 +97,6 @@ if (m < 0 || (m === 0 && da.getDate() < birthDate.getDate())) {
 }
 if(m<0){
     m*=-1;
-}
-if(m!=0 && m < birthDate.getMonth()){
     m=12-m;
 }
 console.log(age+" "+m+" Month");
