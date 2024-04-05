@@ -23,7 +23,7 @@ body{
 }
 .wfl{
     float: left;
-    width: 60%;
+    width: 59.5%;
 }
 .wfr{
     float: right;
@@ -39,8 +39,12 @@ body{
     background-color: rgb(219, 222, 227);
 }
 .padding1{
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 147px;
+    padding-bottom: 147px;
+}
+.padding0{
+    padding-top: 18px;
+    padding-bottom: 15px;
 }
 .color3{
     background-color: rgb(255, 255, 255) ;
@@ -49,6 +53,19 @@ body{
     background-color: rgb(213, 229, 255) ;
 }
 .width{
-    width: 50%;
-    float: none;
+    width: 95%;
+    margin: 0 auto;
+}
+.bg{
+    background-color: black;
+}
+.pad{
+    border-bottom: 10px;
+}
+.wi{
+    width: 99.7%;
+    margin: 0 auto;
+}
+.pd{
+    padding-top: 10px;
 }
