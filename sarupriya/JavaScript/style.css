@@ -1,0 +1,26 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+.bg_a{
+    background-color: #524b4b;
+}
+.txtalign{
+    text-align: center;
+}
+.bg_b{
+    background-color: #fadfdb;
+}
+.color{
+    color: #ed9180;
+}
+.width{
+    width: 60%;
+    margin: 0 auto;
+}
+.color_a{
+    color: #fc9b8a;
+}
+.font_f{
+    font-family: 'Pangolin', cursive;
+}
