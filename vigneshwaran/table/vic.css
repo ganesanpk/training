@@ -1,0 +1,76 @@
+body{
+    margin: 0 auto; 
+    padding: 0;
+    background-color: black;
+ }
+ .text{
+     text-align: center;
+ }
+ .margin{
+     margin-bottom: 10px;
+ }
+ .margin1{
+     margin-top: 5px;
+     margin-bottom: 5px;
+ }
+ .padding{
+     padding-top: 10px;
+     padding-bottom: 12px;
+ }
+ .padding0{
+     padding-top: 18px;
+     padding-bottom: 15px;
+ }
+ .padding1{
+     padding-top: 147px;
+     padding-bottom: 147px;
+ }
+ .border{
+     border: 5px solid black;
+ }
+ .border1{
+     border: 3px solid black;
+ }
+ .border2{
+     border: 2px solid black;
+ }
+ .bg-color{
+     background-color: black;
+ }
+ .width{
+     width: 99%;
+     margin: 0 auto;
+ }
+ .wfl{
+     width: 61%;
+     float: left;
+ }
+ .wfr{
+     width: 38.5%;
+     float: right;
+ }
+ .color{
+     background-color: rgb(255, 246, 213);
+ }
+ .color1{
+     background-color: rgb(227, 222, 219);
+ }
+ .color2{
+     background-color: rgb(219, 222, 227);
+ }
+ .color3{
+     background-color: rgb(255, 255, 255) ;
+ }
+ .color4{
+     background-color: rgb(213, 229, 255) ;
+ }
+ .width{
+     width: 95%;
+     margin: 0 auto;
+ }
+ .width0{
+     width: 99.%;
+     margin-left: -2px;
+     margin-right: -2px;
+     margin-bottom: -2px;
+ }
