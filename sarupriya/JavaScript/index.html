@@ -9,49 +9,59 @@
     <script src="https://kit.fontawesome.com/a7222674db.js" crossorigin="anonymous"></script>
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script1.js"></script>
+    <!-- <script src="script1.js"></script> -->
+    <style>
+        .error-msg{
+            color: white;
+        }
+    </style>
 </head>
 
 <body>
-    <div class="bg_a color p-5 font_f">
+    <div class="color p-5 font_f bg_img">
         <h1 class="p-5 txtalign color_a">Validation Form</h1>
-        <form>
-            <div class="container width">
-                <form method="post" action="/">
+        
+            <div class="container width bg_a">
+                <form method="post"  id="myform">
                     <div class="p-3">
                         <label for="fname">First Name</label>
                         <div>
-                            <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+                            <input type="text" id="fname" name="firstname" placeholder="Your name.."> <br>
+                            <span class="error-msg" id="error"></span>
                         </div>
+                        <span id="name_error"></span>
                     </div>
                     <div class="p-3">
                         <label for="lname">Last Name</label>
                         <div>
-                            <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+                            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
                         </div>
+                        <span id="lname_error"></span>
                     </div>
                     <div class="p-3">
                         <label for="dob">Date of Birth</label>
                         <div>
-                            <input type="date" id="dob" name="dobdate" placeholder="Your dob.." required>
+                            <input type="date" id="dob" name="dobdate" placeholder="Your dob.." >
                         </div>
                     </div>
                     <div class="p-3">
                         <label for="email">email</label>
                         <div>
-                            <input type="email" id="email" name="emailid" placeholder="Your email.." required>
+                            <input type="email" id="email" name="emailid" placeholder="Your email..">
                         </div>
+                        <span id="email_error"></span>
                     </div>
                     <div class="p-3">
-                        <label for="doj">Date of Joining</label>
-                        <div>
-                            <input type="date" id="doj" name="dojdate" placeholder="Your joining date.." required>
+                        <label for="gender">Gender</label>
+                        <div class="bg_c">
+                            <input type="radio" name="gender" value="male"  >Male
+                            <input type="radio" name="gender" value="female" >Female
                         </div>
                     </div>
                     <div class="p-3">
                         <label for="dept">Department</label>
                         <div>
-                            <select name="option" id="dept" required>
+                            <select name="option" id="dept" >
                                 <option class="bg_b">---select---</option>
                                 <option>Marketing</option>
                                 <option>Developer</option>
@@ -65,21 +75,49 @@
                     <div class="row p-5">
                         <div class="col-md-6 col-sm-12">
                             <div>
-                                <input type="submit" id="sumbit" class="btn btn-danger" onclick="returnCall()"
-                                    value="Submit">
+                                <input type="submit" id="sumbit" class="btn btn-danger" value="Submit">
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-12">
                             <div>
-                                <input type="reset" id="reset" class="btn btn-danger"
-                                    value="Reset">
+                                <input type="reset" id="reset" class="btn btn-danger" value="Reset">
                             </div>
                         </div>
                     </div>
                 </form>
             </div>
-        </form>
+        
     </div>
 </body>
 
 </html>
+<script>
+    document.getElementById('myform').addEventListener("submit", function(event) {
+    event.preventDefault();
+    var fname = document.getElementById('fname').value;
+    const lname = document.getElementById('lname').value;
+    const dob = document.getElementById('dob');
+    const email = document.getElementById('email');
+    const doj = document.getElementById('doj');
+    const dept = document.getElementById('dept');
+    const form = document.getElementById('form');
+    const name_error = document.getElementById('name_error');
+    const email_error = document.getElementById('email_error');
+    const lame_error = document.getElementById('lname_error');
+    var isValid=true;
+
+    if(fname==""){
+        document.getElementById('error').innerHTML="Please Enter Firstname";
+        isValid=false;
+    }else{
+        document.getElementById('error').innerHTML="";
+        
+    }
+    
+    if(isValid){
+        event.target.submit();
+    }
+
+
+});
+</script>

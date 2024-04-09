@@ -1,19 +1,60 @@
-function returnCall(){
-    var username = document.getElementById('fname').value;
-    var lname = document.getElementById('lname').value;
-    var dob = document.getElementById('dob').value;
-    var email = document.getElementById('email').value;
-    var doj = document.getElementById('doj').value;
-    var dept = document.getElementById('dept').value;
-    if(username == "" || lname == "" || dob == "" || email == "" || doj == "" || dept == ""){
-        console.log("Please enter a required fields");
-    } 
-    else{
-        console.log("Firstname : "+username);
-        console.log("Lastname : "+lname);
-        console.log("Date of Birth :"+dob);
-        console.log("Email ID : "+email);
-        console.log("Date of Joining : "+doj);
-        console.log("Department : "+dept);
+
+document.getElementById('myform').addEventListener("submit", function(event) {
+    event.preventDefault();
+    var fname = document.getElementById('fname').value;
+    const lname = document.getElementById('lname').value;
+    const dob = document.getElementById('dob');
+    const email = document.getElementById('email');
+    const doj = document.getElementById('doj');
+    const dept = document.getElementById('dept');
+    const form = document.getElementById('form');
+    const name_error = document.getElementById('name_error');
+    const email_error = document.getElementById('email_error');
+    const lame_error = document.getElementById('lname_error');
+    var isValid=true;
+
+    if(fname==""){
+        document.getElementById('error').innerHTML="Please Enter Firstname";
+        isValid=false;
+    }else{
+        document.getElementById('error').innerHTML="";
+        
     }
-}
+    if(isValid){
+        event.target.submit();
+    }
+
+
+});
+
+
+
+
+// function returnCall(){
+//     const name = document.getElementById('fname');
+//     const lname = document.getElementById('lname');
+//     const dob = document.getElementById('dob');
+//     const email = document.getElementById('email');
+//     const doj = document.getElementById('doj');
+//     const dept = document.getElementById('dept');
+//     const form = document.getElementById('form');
+//     const name_error = document.getElementById('name_error');
+//     const email_error = document.getElementById('email_error');
+//     const lame_error = document.getElementById('lname_error');
+
+//     form.addEventListener('submit',(e) =>
+//     {
+//         const email_check = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+//         if(name == '' || name.value == null){
+//             e.preventDefault(); 
+//         }
+//         if(lname == '' || lname.value == null){
+//             e.preventDefault();
+//         }
+        
+//         if(!email.value.match(email_check)){
+//             e.preventDefault();
+//         }
+//     }
+// );
+// }
