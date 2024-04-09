@@ -18,6 +18,9 @@ body{
     margin-top: 5px;
     margin-bottom: 5px;
 }
+.margin7{
+    margin-bottom: 5px;
+}
 .margin2{
     margin: 0 auto;
     width: 95%;
@@ -32,6 +35,10 @@ body{
 }
 .margin5{
     margin-bottom: 10px;
+}
+.margin6{
+    margin-top: 4px;
+    margin-bottom: 4px;
 }
 .color{
     background-color: rgb(255, 246, 213);
@@ -53,24 +60,23 @@ body{
     float: left;
 }
 .wfr{
-    width: 39.7%;
+    width: 39.65%;
     float: right;
 }
 .border{
     border: 2px solid black;
 }
-.border1{
-    border: 2px solid black;
-    margin-left: -1.5px;
-    margin-right: -1.5px;
-    margin-bottom: -1.5px;
-}
 .border2{
     border-bottom: 1px solid black;
 }
 .padding1{
+<<<<<<< HEAD
     padding-top: 140px;
     padding-bottom: 141.8px;
     /* margin-top: 2px;
     margin-bottom: 1px; */
+=======
+    padding-top: 138.7px;
+    padding-bottom: 138.7px;
+>>>>>>> 5c35989cf7d8e63d807c14658ddfc34152a68d96
 }

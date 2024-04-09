@@ -3,7 +3,7 @@ body{
     padding: 0;
 }
 .bg_a{
-    background-color: #524b4b;
+    background-color: #e9e2c6;
 }
 .txtalign{
     text-align: center;
@@ -23,4 +23,12 @@ body{
 }
 .font_f{
     font-family: 'Pangolin', cursive;
+}
+.bg_img{
+    background-image: url(img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg_c{
+    color: #747373;
 }
