@@ -59,7 +59,7 @@ body{
     background-color: black;
 }
 .pad{
-    border-bottom: 10px;
+    border-bottom: 1px solid black;
 }
 .wi{
     width: 99.7%;
@@ -71,4 +71,7 @@ body{
 .width_main{
     width: 99%;
     margin: 0 auto;
+}
+.margin{
+    margin-bottom: 10px;
 }
