@@ -13,22 +13,24 @@
 </head>
 
 <body>
-    <div class="bg_a color p-5 font_f">
+    <div class="color p-5 font_f bg_img">
         <h1 class="p-5 txtalign color_a">Validation Form</h1>
         <form>
-            <div class="container width">
-                <form method="post" action="/">
+            <div class="container width bg_a">
+                <form method="post" action="/" id="form">
                     <div class="p-3">
                         <label for="fname">First Name</label>
                         <div>
-                            <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+                            <input type="text" id="fname" name="firstname" placeholder="Your name..">
                         </div>
+                        <span id="name_error"></span>
                     </div>
                     <div class="p-3">
                         <label for="lname">Last Name</label>
                         <div>
-                            <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+                            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
                         </div>
+                        <span id="lname_error"></span>
                     </div>
                     <div class="p-3">
                         <label for="dob">Date of Birth</label>
@@ -39,13 +41,15 @@
                     <div class="p-3">
                         <label for="email">email</label>
                         <div>
-                            <input type="email" id="email" name="emailid" placeholder="Your email.." required>
+                            <input type="email" id="email" name="emailid" placeholder="Your email..">
                         </div>
+                        <span id="email_error"></span>
                     </div>
                     <div class="p-3">
-                        <label for="doj">Date of Joining</label>
-                        <div>
-                            <input type="date" id="doj" name="dojdate" placeholder="Your joining date.." required>
+                        <label for="gender">Gender</label>
+                        <div class="bg_c">
+                            <input type="radio" name="gender" value="male"  required>Male
+                            <input type="radio" name="gender" value="female"  required>Female
                         </div>
                     </div>
                     <div class="p-3">
@@ -71,8 +75,7 @@
                         </div>
                         <div class="col-md-6 col-sm-12">
                             <div>
-                                <input type="reset" id="reset" class="btn btn-danger"
-                                    value="Reset">
+                                <input type="reset" id="reset" class="btn btn-danger" value="Reset">
                             </div>
                         </div>
                     </div>
