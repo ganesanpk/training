@@ -9,10 +9,10 @@ body{
     float: right;
 }
 .width_left{
-    width: 30%;
+    width: 40%;
 }
 .width_right{
-    width: 56%;
+    width: 58%;
 }
 .width_l1{
     width: 20%;
@@ -24,10 +24,10 @@ body{
     width: 43%;
 }
 .width{
-    width: 90%;
+    width: 95%;
 }
 .width_a{
-    width: 95%;
+    width: 93%;
 }
 .width_b{
     width: 98%;
@@ -39,20 +39,20 @@ body{
     background-color: white;
 }
 .bg_color1{
-    background-color: rgb(65, 73, 65);
+    background-color: rgb(66, 71, 66);
 }
 .bg_color2{
     background-color: rgb(209, 209, 160);
 }
 .border{
-    border-top: 1px solid gray;
-    border-right:  1px solid gray;
-    border-left:  1px solid gray;
+    border-top: 3px solid gray;
+    border-right:  3px solid gray;
+    border-left:  3px solid gray;
     border-radius: 15px 15px 0px 0px ;
 }
  
 .padding{
-    padding-top: 50px;
+    padding-top: 90px;
 }
 .margin1{
     margin-bottom: 10px;
@@ -68,15 +68,16 @@ body{
     border: 2px dashed rgb(204, 204, 135);
 }
 .border4{
-    border-left: 1px solid rgb(121, 124, 92);
-    border-right: 1px solid rgb(121, 124, 92);
-    border-bottom: 1px solid rgb(121, 124, 92);
-    border-radius: 0px 0px 10px 10px ;
+    border-left: 3px solid rgb(121, 124, 92);
+    border-right: 3px solid rgb(121, 124, 92);
 }
 .border_5{
-    border: 1px solid grey;
-    border-radius: 15px;
+     border-top: 3px solid rgb(121, 124, 92);
+     border-left: 3px solid rgb(121, 124, 92);
+     border-right: 3px solid rgb(121, 124, 92);
+     border-radius: 10px 10px 0px 0px;
 }
+     
 .font{
     font-style: italic;
 }
@@ -84,16 +85,14 @@ body{
     font-size: 30px;
     font-weight: bold;
 }
-.font_s2{
-    font-size: small;
-}
+ 
 .font_s3{
     font:10px;
-    font-weight: 600;
-    color: rgb(51, 48, 48);
+    font-weight: 500;
+    
 }
 .font_s4{
-    font-size: 20px;
+    font-size: 25px;
 }
 .font_s5{
     font: 35px;    
@@ -108,7 +107,7 @@ body{
     color: rgb(199, 199, 106);
 }
 .font_c2{
-    color: rgb(98, 131, 33);
+    color: rgb(64, 83, 24);
 }
 .padding1{
     padding-top: 13px;
@@ -123,7 +122,7 @@ body{
     padding-top: 30px;
 }
 .padding5{
-    padding-bottom: 45px;
+    padding-bottom: 40px;
 }
 .padding6{
     padding-top: 20px;
@@ -132,11 +131,18 @@ body{
     padding-top: 7px;
     padding-bottom: 12px;
 }
+.padding8{
+    padding-top: 7px;
+}
 .font_f{
     font-family: sans-serif;
 }
 .linespacing{
-    line-height: 20px;
+    line-height: 25px;
+    list-style: none;
+}
+.linespacing1{
+    line-height: 23px;
     list-style: none;
 }
 .fa-right-long{
