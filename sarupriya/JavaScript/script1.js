@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 document.getElementById('myform').addEventListener("submit", function(event) {
     event.preventDefault();
@@ -6,6 +7,28 @@ document.getElementById('myform').addEventListener("submit", function(event) {
     const lname = document.getElementById('lname').value;
 =======
 function returnCall(){
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*function returnCall(){
+>>>>>>> 639f51f4b4ff5e3f8d4f49c48837337d2022fefd
     const name = document.getElementById('fname');
     const lname = document.getElementById('lname');
 >>>>>>> 5c35989cf7d8e63d807c14658ddfc34152a68d96
@@ -82,5 +105,9 @@ function returnCall(){
         }
     }
 );
+<<<<<<< HEAD
 }
 >>>>>>> 5c35989cf7d8e63d807c14658ddfc34152a68d96
+=======
+}*/
+>>>>>>> 639f51f4b4ff5e3f8d4f49c48837337d2022fefd
