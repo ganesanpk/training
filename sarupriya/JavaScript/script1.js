@@ -1,4 +1,23 @@
-function returnCall(){
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*function returnCall(){
     const name = document.getElementById('fname');
     const lname = document.getElementById('lname');
     const dob = document.getElementById('dob');
@@ -25,4 +44,4 @@ function returnCall(){
         }
     }
 );
-}
+}*/
