@@ -9,80 +9,125 @@
     <script src="https://kit.fontawesome.com/a7222674db.js" crossorigin="anonymous"></script>
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script1.js"></script>
+    <style>
+        .error_msg {
+            color: red;
+        }
+    </style>
 </head>
 
 <body>
     <div class="color p-5 font_f bg_img">
         <h1 class="p-5 txtalign color_a">Validation Form</h1>
-        <form>
-            <div class="container width bg_a">
-                <form method="post" action="/" id="form">
-                    <div class="p-3">
-                        <label for="fname">First Name</label>
+        <div class="container width bg_a">
+            <form method="post" id="myform">
+                <div class="p-3">
+                    <label for="fname">First Name</label>
+                    <div>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name.." minlength="3" maxlength="20" pattern="[A-Za-z]">
+                    </div>
+                    <span class="error_msg" id="name_error"></span>
+                </div>
+                <div class="p-3">
+                    <label for="lname">Last Name</label>
+                    <div>
+                        <input type="text" id="lname" name="lastname" placeholder="Your name.." minlength="2" maxlength="14">
+                    </div>
+                    <span class="error_msg" id="lname_error"></span>
+                </div>
+                <div class="p-3">
+                    <label for="dob">Date of Birth</label>
+                    <div>
+                        <input type="date" id="dob" name="dobdate" placeholder="Your dob.." required>
+                    </div>
+                </div>
+                <div class="p-3">
+                    <label for="email">email</label>
+                    <div>
+                        <input type="email" id="email" name="emailid" placeholder="Your email.." 
+                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" />
+                    </div>
+                    <span class="error_msg" id="email_error"></span>
+                </div>
+                <div class="p-3">
+                    <label for="gender">Gender</label>
+                    <div class="bg_c">
+                        <input type="radio" name="gender" value="male" required>Male
+                        <input type="radio" name="gender" value="female" required>Female
+                    </div>
+                </div>
+                <div class="p-3">
+                    <label for="dept">Department</label>
+                    <div>
+                        <select name="option" id="dept" required>
+                            <option class="bg_b">---select---</option>
+                            <option>Marketing</option>
+                            <option>Developer</option>
+                            <option>Production dept</option>
+                            <option>Sales dept</option>
+                            <option>Manufacturing dept</option>
+                            <option>HR</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row p-5">
+                    <div class="col-md-6 col-sm-12">
                         <div>
-                            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                            <input type="submit" id="sumbit" class="btn btn-danger" value="Submit">
                         </div>
-                        <span id="name_error"></span>
                     </div>
-                    <div class="p-3">
-                        <label for="lname">Last Name</label>
+                    <div class="col-md-6 col-sm-12">
                         <div>
-                            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                        </div>
-                        <span id="lname_error"></span>
-                    </div>
-                    <div class="p-3">
-                        <label for="dob">Date of Birth</label>
-                        <div>
-                            <input type="date" id="dob" name="dobdate" placeholder="Your dob.." required>
+                            <input type="reset" id="reset" class="btn btn-danger" value="Reset">
                         </div>
                     </div>
-                    <div class="p-3">
-                        <label for="email">email</label>
-                        <div>
-                            <input type="email" id="email" name="emailid" placeholder="Your email..">
-                        </div>
-                        <span id="email_error"></span>
-                    </div>
-                    <div class="p-3">
-                        <label for="gender">Gender</label>
-                        <div class="bg_c">
-                            <input type="radio" name="gender" value="male"  required>Male
-                            <input type="radio" name="gender" value="female"  required>Female
-                        </div>
-                    </div>
-                    <div class="p-3">
-                        <label for="dept">Department</label>
-                        <div>
-                            <select name="option" id="dept" required>
-                                <option class="bg_b">---select---</option>
-                                <option>Marketing</option>
-                                <option>Developer</option>
-                                <option>Production dept</option>
-                                <option>Sales dept</option>
-                                <option>Manufacturing dept</option>
-                                <option>HR</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="row p-5">
-                        <div class="col-md-6 col-sm-12">
-                            <div>
-                                <input type="submit" id="sumbit" class="btn btn-danger" onclick="returnCall()"
-                                    value="Submit">
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-12">
-                            <div>
-                                <input type="reset" id="reset" class="btn btn-danger" value="Reset">
-                            </div>
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </form>
+                </div>
+            </form>
+        </div>
     </div>
 </body>
 
 </html>
+
+<script>
+    document.getElementById('myform').addEventListener("submit", function (event) {
+
+        event.preventDefault();
+        var fname = document.getElementById('fname').value;
+        var lname = document.getElementById('lname').value;
+        var email = document.getElementById('email').value;
+        var name_error = document.getElementById('name_error').value;
+        var email_error = document.getElementById('email_error').value;
+        var lname_error = document.getElementById('lname_error').value;
+        var isvalid = true;
+
+        if (fname == "") {
+            document.getElementById('name_error').innerHTML = "Please enter your firstname";
+            isvalid = false;
+        }
+        else {
+            document.getElementById('name_error').innerHTML = "";
+        }
+
+        if (lname == "") {
+            document.getElementById('lname_error').innerHTML = "Please enter your lastname";
+            isvalid = false;
+        }
+        else {
+            document.getElementById('lname_error').innerHTML = "";
+        }
+
+        if (email == "") {
+            document.getElementById('email_error').innerHTML = "Please enter your email Id";
+            isvalid = false;
+        }
+        else {
+            document.getElementById('email_error').innerHTML = "";
+        }
+
+        if (isvalid) {
+            event.target.submit();
+        }
+    }
+    );
+</script>
