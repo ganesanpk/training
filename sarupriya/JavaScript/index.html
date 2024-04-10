@@ -9,16 +9,9 @@
     <script src="https://kit.fontawesome.com/a7222674db.js" crossorigin="anonymous"></script>
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-<<<<<<< HEAD
-    <!-- <script src="script1.js"></script> -->
-    <style>
-        .error-msg{
-            color: white;
-=======
     <style>
         .error_msg {
             color: red;
->>>>>>> 639f51f4b4ff5e3f8d4f49c48837337d2022fefd
         }
     </style>
 </head>
@@ -26,8 +19,7 @@
 <body>
     <div class="color p-5 font_f bg_img">
         <h1 class="p-5 txtalign color_a">Validation Form</h1>
-<<<<<<< HEAD
-<<<<<<< HEAD
+
         
             <div class="container width bg_a">
                 <form method="post"  id="myform">
@@ -36,7 +28,7 @@
                         <div>
                             <input type="text" id="fname" name="firstname" placeholder="Your name.."> <br>
                             <span class="error-msg" id="error"></span>
-=======
+
         <form>
             <div class="container width bg_a">
                 <form method="post" action="/" id="form">
@@ -44,8 +36,7 @@
                         <label for="fname">First Name</label>
                         <div>
                             <input type="text" id="fname" name="firstname" placeholder="Your name..">
->>>>>>> 5c35989cf7d8e63d807c14658ddfc34152a68d96
-=======
+
         <div class="container width bg_a">
             <form method="post" id="myform">
                 <div class="p-3">
@@ -101,12 +92,12 @@
                     <div class="col-md-6 col-sm-12">
                         <div>
                             <input type="submit" id="sumbit" class="btn btn-danger" value="Submit">
->>>>>>> 639f51f4b4ff5e3f8d4f49c48837337d2022fefd
+
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-12">
                         <div>
-<<<<<<< HEAD
+
                             <input type="text" id="lname" name="lastname" placeholder="Your last name..">
                         </div>
                         <span id="lname_error"></span>
@@ -127,13 +118,13 @@
                     <div class="p-3">
                         <label for="gender">Gender</label>
                         <div class="bg_c">
-<<<<<<< HEAD
+
                             <input type="radio" name="gender" value="male"  >Male
                             <input type="radio" name="gender" value="female" >Female
-=======
+
                             <input type="radio" name="gender" value="male"  required>Male
                             <input type="radio" name="gender" value="female"  required>Female
->>>>>>> 5c35989cf7d8e63d807c14658ddfc34152a68d96
+
                         </div>
                     </div>
                     <div class="p-3">
@@ -165,49 +156,19 @@
                 </form>
             </div>
         
-=======
+
                             <input type="reset" id="reset" class="btn btn-danger" value="Reset">
                         </div>
                     </div>
                 </div>
             </form>
         </div>
->>>>>>> 639f51f4b4ff5e3f8d4f49c48837337d2022fefd
+
     </div>
 </body>
 
 </html>
-<<<<<<< HEAD
-<script>
-    document.getElementById('myform').addEventListener("submit", function(event) {
-    event.preventDefault();
-    var fname = document.getElementById('fname').value;
-    const lname = document.getElementById('lname').value;
-    const dob = document.getElementById('dob');
-    const email = document.getElementById('email');
-    const doj = document.getElementById('doj');
-    const dept = document.getElementById('dept');
-    const form = document.getElementById('form');
-    const name_error = document.getElementById('name_error');
-    const email_error = document.getElementById('email_error');
-    const lame_error = document.getElementById('lname_error');
-    var isValid=true;
 
-    if(fname==""){
-        document.getElementById('error').innerHTML="Please Enter Firstname";
-        isValid=false;
-    }else{
-        document.getElementById('error').innerHTML="";
-        
-    }
-    
-    if(isValid){
-        event.target.submit();
-    }
-
-
-});
-=======
 
 <script>
     document.getElementById('myform').addEventListener("submit", function (event) {
@@ -250,5 +211,5 @@
         }
     }
     );
->>>>>>> 639f51f4b4ff5e3f8d4f49c48837337d2022fefd
+
 </script>
