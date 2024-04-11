@@ -72,6 +72,12 @@ body{
     float: right;
 }
 .border1{
+<<<<<<< HEAD
+    border: 5px solid rgb(43, 138, 62);
+}
+.intent{
+    text-indent: 10px;
+=======
     border-right: 10px solid rgb(43, 138, 62);
 }
 .text1{
@@ -95,4 +101,5 @@ body{
 }
 .margin6{
     margin-top: 10px;
+>>>>>>> 01dc988a16c3c2e1f6369ddb22ff9c4a80e91ef0
 }
