@@ -1,0 +1,44 @@
+body{
+    padding: 0;
+    margin: 0 auto;
+}
+.color{
+    background-color: rgb(67, 113, 175);
+}
+.color1{
+    background-color: rgb(245, 211, 137);
+}
+.color2{
+    background-color: rgb(255, 203, 103);
+}
+.color3{
+    background-color: rgb(219, 120, 53);
+}
+.color4{
+    background-color: rgb(204, 255, 50);
+}
+.color5{
+    background-color: rgb(49, 136, 231);
+}
+.padding{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.padding0{
+    padding-top: 29px;
+    padding-bottom: 29px;
+}
+.border{
+    border-bottom: 5px solid rgb(224, 129, 71);
+}
+.tex-in{
+    text-indent: 10px;
+}
+.wfl{
+    width: 50%;
+    float: left;
+}
+.wfr{
+    width: 50%;
+    float: right;
+}

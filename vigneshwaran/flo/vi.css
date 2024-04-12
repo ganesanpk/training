@@ -53,8 +53,8 @@ body{
     padding-bottom: 10px;
 }
 .padding3{
-    padding-top: 48px;
-    padding-bottom: 48px;
+    padding-top: 56px;
+    padding-bottom: 56px;
 }
 .padding4{
     padding-top: 20px;
@@ -64,11 +64,11 @@ body{
     text-align: center;
 }
 .wfl1{
-    width: 49%;
+    width: 48%;
     float: left;
 }
 .wfr1{
-    width: 49%;
+    width: 48%;
     float: right;
 }
 .border1{
@@ -84,8 +84,8 @@ body{
     text-indent: 5px;
 }
 .padding6{
-    padding-top: 45px;
-    padding-bottom: 45px;
+    padding-top: 40.5px;
+    padding-bottom: 40.5px;
 }
 .margin4{
     width: 99%;
@@ -96,10 +96,19 @@ body{
     margin-bottom: 20px;
 }
 .padding7{
-    padding-top: 25px;
+    padding-top: 30px;
     padding-bottom: 40px;
 }
 .margin6{
     margin-top: 10px;
+<<<<<<< HEAD
+}
+.margin7{
+    margin-bottom: 10px;
+}
+.margin8{
+    margin-bottom: 5px;
+=======
 >>>>>>> 01dc988a16c3c2e1f6369ddb22ff9c4a80e91ef0
+>>>>>>> 139bb15c492a840365430967f4543b939fb22f8f
 }
