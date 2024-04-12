@@ -70,6 +70,13 @@ body{
     border-bottom: 1px solid black;
 }
 .padding1{
+<<<<<<< HEAD
+    padding-top: 140px;
+    padding-bottom: 141.8px;
+    /* margin-top: 2px;
+    margin-bottom: 1px; */
+=======
     padding-top: 138.7px;
     padding-bottom: 138.7px;
+>>>>>>> 5c35989cf7d8e63d807c14658ddfc34152a68d96
 }
