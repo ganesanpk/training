@@ -19,24 +19,6 @@
 <body>
     <div class="color p-5 font_f bg_img">
         <h1 class="p-5 txtalign color_a">Validation Form</h1>
-
-        
-            <div class="container width bg_a">
-                <form method="post"  id="myform">
-                    <div class="p-3">
-                        <label for="fname">First Name</label>
-                        <div>
-                            <input type="text" id="fname" name="firstname" placeholder="Your name.."> <br>
-                            <span class="error-msg" id="error"></span>
-
-        <form>
-            <div class="container width bg_a">
-                <form method="post" action="/" id="form">
-                    <div class="p-3">
-                        <label for="fname">First Name</label>
-                        <div>
-                            <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
         <div class="container width bg_a">
             <form method="post" id="myform">
                 <div class="p-3">
@@ -92,83 +74,20 @@
                     <div class="col-md-6 col-sm-12">
                         <div>
                             <input type="submit" id="sumbit" class="btn btn-danger" value="Submit">
-
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-12">
                         <div>
-
-                            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                        </div>
-                        <span id="lname_error"></span>
-                    </div>
-                    <div class="p-3">
-                        <label for="dob">Date of Birth</label>
-                        <div>
-                            <input type="date" id="dob" name="dobdate" placeholder="Your dob.." >
-                        </div>
-                    </div>
-                    <div class="p-3">
-                        <label for="email">email</label>
-                        <div>
-                            <input type="email" id="email" name="emailid" placeholder="Your email..">
-                        </div>
-                        <span id="email_error"></span>
-                    </div>
-                    <div class="p-3">
-                        <label for="gender">Gender</label>
-                        <div class="bg_c">
-
-                            <input type="radio" name="gender" value="male"  >Male
-                            <input type="radio" name="gender" value="female" >Female
-
-                            <input type="radio" name="gender" value="male"  required>Male
-                            <input type="radio" name="gender" value="female"  required>Female
-
-                        </div>
-                    </div>
-                    <div class="p-3">
-                        <label for="dept">Department</label>
-                        <div>
-                            <select name="option" id="dept" >
-                                <option class="bg_b">---select---</option>
-                                <option>Marketing</option>
-                                <option>Developer</option>
-                                <option>Production dept</option>
-                                <option>Sales dept</option>
-                                <option>Manufacturing dept</option>
-                                <option>HR</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="row p-5">
-                        <div class="col-md-6 col-sm-12">
-                            <div>
-                                <input type="submit" id="sumbit" class="btn btn-danger" value="Submit">
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-12">
-                            <div>
-                                <input type="reset" id="reset" class="btn btn-danger" value="Reset">
-                            </div>
-                        </div>
-                    </div>
-                </form>
-            </div>
-        
-
                             <input type="reset" id="reset" class="btn btn-danger" value="Reset">
                         </div>
                     </div>
                 </div>
             </form>
         </div>
-
     </div>
 </body>
 
 </html>
-
 
 <script>
     document.getElementById('myform').addEventListener("submit", function (event) {
@@ -211,5 +130,4 @@
         }
     }
     );
-
 </script>
