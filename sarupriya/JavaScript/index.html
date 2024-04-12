@@ -13,6 +13,9 @@
         .error_msg {
             color: red;
         }
+        .eligible{
+            color: green;
+        }
     </style>
 </head>
 
@@ -24,28 +27,45 @@
                 <div class="p-3">
                     <label for="fname">First Name</label>
                     <div>
-                        <input type="text" id="fname" name="firstname" placeholder="Your name.." minlength="3" maxlength="20" pattern="[A-Za-z]">
+                        <input type="text" id="fname" name="firstname" placeholder="Your name.." minlength="3"
+                            maxlength="20" pattern="[A-Za-z]">
                     </div>
                     <span class="error_msg" id="name_error"></span>
                 </div>
                 <div class="p-3">
                     <label for="lname">Last Name</label>
                     <div>
-                        <input type="text" id="lname" name="lastname" placeholder="Your name.." minlength="2" maxlength="14">
+                        <input type="text" id="lname" name="lastname" placeholder="Your name.." minlength="2"
+                            maxlength="14">
                     </div>
                     <span class="error_msg" id="lname_error"></span>
                 </div>
                 <div class="p-3">
+                    <label for="age">Age</label>
+                    <div>
+                        <input type="number" id="age" name="age" max="50">
+                    </div>
+                </div>
+                <div class="p-3">
                     <label for="dob">Date of Birth</label>
                     <div>
-                        <input type="date" id="dob" name="dobdate" placeholder="Your dob.." required>
+                        <input type="date" id="date" name="dobdate" onchange="agecheck()">
                     </div>
+                    <span class="error_msg" id="date_error"></span>
+                </div>
+                <div class="p-3">
+                    <label for="doj">Date of Joining</label>
+                    <div>
+                        <input type="date" id="doj" name="dojdate" onchange="eligible()">
+                    </div>
+                    <span class="error_msg" id="doj_error"></span>
+                    <span type="text" id="eg" name="age" class="eligible"></span>
                 </div>
                 <div class="p-3">
                     <label for="email">email</label>
                     <div>
-                        <input type="email" id="email" name="emailid" placeholder="Your email.." 
-                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" />
+                        <input type="email" id="email" name="emailid" placeholder="Your email.."
+                            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" />
                     </div>
                     <span class="error_msg" id="email_error"></span>
                 </div>
@@ -90,15 +110,50 @@
 </html>
 
 <script>
+    function agecheck() {
+        var dob = document.getElementById('date').value;
+        var agenew = document.getElementById('age');
+        var dobdate = new Date(dob);
+        var cdate = new Date();
+        var age = cdate.getFullYear() - dobdate.getFullYear();
+        var m = cdate.getMonth() - dobdate.getMonth();
+        if (m < 0 || (m === 0 && cdate.getDate() < dobdate.getDate())) {
+            age -= 1;
+        }
+        agenew.value = age;
+    
+    }
+    function eligible() {
+        var doj = document.getElementById('doj').value;
+        var agenew = document.getElementById('eg');
+        var dobdate = new Date(doj);
+        var cdate = new Date();
+        var age = cdate.getFullYear() - dobdate.getFullYear();
+        var m = cdate.getMonth() - dobdate.getMonth();
+        if (m < 0 || (m === 0 && cdate.getDate() < dobdate.getDate())) {
+            age -= 1;
+        }
+        agenew.value = age;
+        if(agenew >= 18){
+            document.getElementById('eg').innerHTML = "you are eligible";
+        }
+        else{
+            document.getElementById('eg').innerHTML = "you are not eligible";
+        }
+    }
     document.getElementById('myform').addEventListener("submit", function (event) {
 
         event.preventDefault();
         var fname = document.getElementById('fname').value;
         var lname = document.getElementById('lname').value;
         var email = document.getElementById('email').value;
+        var date = document.getElementById('date').value;
+        var doj = document.getElementById('doj').value;
         var name_error = document.getElementById('name_error').value;
         var email_error = document.getElementById('email_error').value;
         var lname_error = document.getElementById('lname_error').value;
+        var date_error = document.getElementById('date_error').value;
+        var doj_error = document.getElementById('doj_error').value;
         var isvalid = true;
 
         if (fname == "") {
@@ -123,6 +178,22 @@
         }
         else {
             document.getElementById('email_error').innerHTML = "";
+        }
+
+        if (date == "") {
+            document.getElementById('date_error').innerHTML = "enter your date of birth";
+            isvalid = false;
+        }
+        else {
+            document.getElementById('date_error').innerHTML = "";
+        }
+
+        if (doj == "") {
+            document.getElementById('doj_error').innerHTML = "enter your date of joining";
+            isvalid = false;
+        }
+        else {
+            document.getElementById('doj_error').innerHTML = "";
         }
 
         if (isvalid) {
