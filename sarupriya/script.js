@@ -1,11 +1,7 @@
+var welcome=['hello','welcome','india'];
+const hello=[223,9900,0909,233];
+const pair ={dorrno: 232,area:'chennai'};
+console.log(pair["dorrno"]);
+console.log(hello);
+console.log(welcome);
 
-var name ="Hellow World";
-console.log(name);
-name ="HI";
-console.log(name);
-name =33;
-console.log(name);
-const val = 10;
-console.log("constant value"+val);
-val =33;
-console.log(val);

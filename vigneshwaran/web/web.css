@@ -42,3 +42,31 @@ body{
     width: 50%;
     float: right;
 }
+.width_95{
+    width: 95%;
+}
+.margin_auto{
+    margin: 0 auto;
+}
+.bg_color{
+    background-color: blue;
+}
+.font_style{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+.margin{
+    margin-bottom: 30px;
+    padding-top: 20px;
+}
+.border_head{
+    border-bottom: 5px solid rgba(243, 91, 53, 0.801);
+}
+button{
+    color: white;
+    margin-right: 10px;
+    border: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
