@@ -29,7 +29,7 @@ body{
     padding-bottom: 29px;
 }
 .border{
-    border-bottom: 5px solid rgb(224, 129, 71);
+    border-bottom: 10px solid rgb(224, 129, 71);
 }
 .tex-in{
     text-indent: 10px;
@@ -40,5 +40,89 @@ body{
 }
 .wfr{
     width: 50%;
+    float: right;
+}
+.witdh-main{
+    width: 95%;
+    margin: 0 auto;
+}
+.witdh-main1{
+    width: 85%;
+    margin: 0 auto;
+}
+button{
+    width: 15%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 10px;
+    border: none;
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.font-style{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+.font-style1{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(199, 99, 14);
+}
+.font-style2{
+    font-size: 10px;
+    font-weight: bold;
+}
+.wfl1{
+    width: 60%;
+    float: left;
+}
+.wfr1{
+    width: 40%;
+    float: right;
+}
+.padding1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.box{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: white;
+    border: 1px solid black;
+}
+.box1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+    border: 1px solid black;
+}
+.box2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: white;
+    border: 1px solid black;
+}
+.box3{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: white;
+    border: 1px solid black;
+}
+.wfl2{
+    width: 40%;
+    float: left;
+}
+.wfr2{
+    width: 60%;
     float: right;
 }
