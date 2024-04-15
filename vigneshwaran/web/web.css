@@ -25,11 +25,11 @@ body{
     padding-bottom: 20px;
 }
 .padding0{
-    padding-top: 29px;
-    padding-bottom: 29px;
+    padding-top: 26px;
+    padding-bottom: 26px;
 }
 .border{
-    border-bottom: 5px solid rgb(224, 129, 71);
+    border-bottom: 10px solid rgb(224, 129, 71);
 }
 .tex-in{
     text-indent: 10px;
@@ -41,4 +41,160 @@ body{
 .wfr{
     width: 50%;
     float: right;
+}
+.witdh-main{
+    width: 95%;
+    margin: 0 auto;
+}
+.witdh-main1{
+    width: 85%;
+    margin: 0 auto;
+}
+button{
+    width: 15%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 10px;
+    border: none;
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.font-style{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+.font-style1{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(199, 99, 14);
+}
+.font-style2{
+    font-size: 10px;    
+    font-weight: italic;
+}
+.font-style3{
+    font-size: 10px;
+    font-weight: bold;
+}
+.font-style4{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(158, 64, 10);
+}
+.font-style5{
+    font-size: 10px;
+    font-weight: bold;
+    color: rgb(118, 74, 49);
+}
+.font-style6{
+    font-size: 12px;
+    font-weight: bold;
+}
+.font-style7{
+    font-size: 10px;
+    font-weight: bold;
+    color: rgb(139, 60, 0);
+}
+.font-style8{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+.font-style9{
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+}
+.font-style10{
+    font-size: 10px;
+    font-weight: bold;
+    color: rgb(118, 74, 49);
+}
+.feet{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(234, 162, 104);
+    border-radius: 3px;
+    margin-right: 5px;
+}
+.tweet{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(130, 197, 205);
+    border-radius: 3px;
+    margin-right: 5px;
+}
+.face{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(75, 104, 164);
+    border-radius: 3px;
+    margin-right: 5px;
+}
+.wfl1{
+    width: 70%;
+    float: left;
+}
+.wfr1{
+    width: 30%;
+    float: right;
+}
+.padding1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.box{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: white;
+    border: 1px solid black;
+}
+.box1{
+    margin-top: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: white;
+    border: 4px double rgb(255, 190, 86);
+}
+.box2{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: white;
+    border: 1px solid black;
+}
+.box3{
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background-color: white;
+    border: 1px solid black;
+}
+.wfl2{
+    width: 40%;
+    float: left;
+}
+.wfr2{
+    width: 60%;
+    float: right;
+}
+.wfl3{
+    width: 60%;
+    float: left;
+}
+.wfr3{
+    width: 40%;
+    float: right;
+}
+.widths{
+    text-indent: 80px;
 }
