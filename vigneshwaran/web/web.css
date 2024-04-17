@@ -29,7 +29,7 @@ body{
     padding-bottom: 29px;
 }
 .border{
-    border-bottom: 5px solid rgb(224, 129, 71);
+    border-bottom: 10px solid rgb(224, 129, 71);
 }
 .tex-in{
     text-indent: 10px;
@@ -42,31 +42,87 @@ body{
     width: 50%;
     float: right;
 }
-.width_95{
+.witdh-main{
     width: 95%;
-}
-.margin_auto{
     margin: 0 auto;
 }
-.bg_color{
-    background-color: blue;
+.witdh-main1{
+    width: 85%;
+    margin: 0 auto;
 }
-.font_style{
+button{
+    width: 15%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 10px;
+    border: none;
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.font-style{
     font-size: 25px;
     font-weight: bold;
     color: white;
 }
-.margin{
-    margin-bottom: 30px;
+.font-style1{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(199, 99, 14);
+}
+.font-style2{
+    font-size: 10px;
+    font-weight: bold;
+}
+.wfl1{
+    width: 60%;
+    float: left;
+}
+.wfr1{
+    width: 40%;
+    float: right;
+}
+.padding1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.box{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: white;
+    border: 1px solid black;
+}
+.box1{
+    margin-top: 10px;
+    margin-bottom: 10px;
     padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+    border: 1px solid black;
 }
-.border_head{
-    border-bottom: 5px solid rgba(243, 91, 53, 0.801);
+.box2{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: white;
+    border: 1px solid black;
 }
-button{
-    color: white;
-    margin-right: 10px;
-    border: none;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+.box3{
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background-color: white;
+    border: 1px solid black;
+}
+.wfl2{
+    width: 40%;
+    float: left;
+}
+.wfr2{
+    width: 60%;
+    float: right;
 }
