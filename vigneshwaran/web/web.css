@@ -1,0 +1,228 @@
+body{
+    padding: 0;
+    margin: 0 auto;
+}
+.color{
+    background-color: rgb(67, 113, 175);
+}
+.color1{
+    background-color: rgb(245, 211, 137);
+}
+.color2{
+    background-color: rgb(255, 203, 103);
+}
+.color3{
+    background-color: rgb(224, 129, 71);
+}
+.color4{
+    background-color: rgb(204, 255, 50);
+    font-weight: bold;
+    color: black;
+}
+.color5{
+    background-color: rgb(49, 136, 231);
+}
+.padding{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.padding0{
+    padding-top: 37.5px;
+    padding-bottom: 37.5px;
+}
+.border{
+    border-bottom: 15px solid rgb(224, 129, 71);
+}
+.tex-in{
+    text-indent: 10px;
+}
+.wfl{
+    width: 70%;
+    float: left;
+}
+.wfr{
+    width: 30%;
+    float: right;
+}
+.witdh-main{
+    width: 95%;
+    margin: 0 auto;
+}
+.witdh-main1{
+    width: 85%;
+    margin: 0 auto;
+}
+button{
+    width: 15%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 10px;
+    border: none;
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size: 20px;
+}
+button1{
+    width: 15%;
+    padding: 5PX;
+    margin-bottom: 5px;
+    color: white;
+    border-radius: 5PX;
+}
+.font-style{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+.font-style1{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(199, 99, 14);
+}
+.font-style2{
+    font-size: 18px;    
+    font-family: italic;
+    line-height: 30px;
+}
+.font-style4{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(158, 64, 10);
+}
+.font-style5{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(118, 74, 49);
+}
+.font-style6{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.font-style7{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(139, 60, 0);
+}
+.font-style8{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.font-style9{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+.font-style10{
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(118, 74, 49);
+}
+.font-style11{
+    font-size: 25px;
+    font-weight: bold;
+}
+.feet{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(234, 162, 104);
+    border-radius: 3px;
+    margin-right: 5px;
+}
+.tweet{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(130, 197, 205);
+    border-radius: 3px;
+    margin-right: 5px;
+}
+.face{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(75, 104, 164);
+    border-radius: 3px;
+    margin-right: 5px;
+}
+.wfl1{
+    width: 70%;
+    float: left;
+}
+.wfr1{
+    width: 30%;
+    float: right;
+}
+.padding1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.padding2{
+    padding-top: 10px;
+    padding-bottom: 120px;
+    border-bottom: 1px solid black;
+}
+.box{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: white;
+    border: 1px solid black;
+}
+.box1{
+    margin-top: 20px;
+    padding: 1px;
+    background-color: rgb(255, 203, 103);
+    border: 1px solid black;
+}
+.box5{
+    margin: 2px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: white;
+    border: 1px solid black;
+}
+.box2{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: white;
+    border: 1px solid black;
+}
+.box3{
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background-color: white;
+    border: 1px solid black;
+}
+.wfl2{
+    width: 30%;
+    float: left;
+}
+.wfr2{
+    width: 70%;
+    float: right;
+}
+.wfl3{
+    width: 60%;
+    float: left;
+}
+.wfr3{
+    width: 40%;
+    float: right;
+}
+.wid{
+    width: 95%;
+    margin: 0 auto;
+}
+.wid1{
+    width: 99%;
+    margin: 0 auto;
+}
