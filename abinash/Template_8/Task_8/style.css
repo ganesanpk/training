@@ -9,10 +9,10 @@ body{
     float: right;
 }
 .width_left{
-    width: 40%;
+    width: 30%;
 }
 .width_right{
-    width: 58%;
+    width: 67%;
 }
 .width_l1{
     width: 20%;
@@ -30,7 +30,7 @@ body{
     width: 93%;
 }
 .width_b{
-    width: 98%;
+    width: 97%;
 }
 .margin{
     margin: 0 auto;
@@ -76,6 +76,7 @@ body{
      border-left: 3px solid rgb(121, 124, 92);
      border-right: 3px solid rgb(121, 124, 92);
      border-radius: 10px 10px 0px 0px;
+      
 }
      
 .font{
@@ -87,21 +88,23 @@ body{
 }
  
 .font_s3{
-    font:10px;
-    font-weight: 500;
+    font:13px;
+    font-weight: 600;
     
 }
 .font_s4{
-    font-size: 25px;
+    font-size: 28px;
+    font-weight: 30px;
 }
 .font_s5{
-    font: 35px;    
+    font-size: 34px;    
 }
 .font_s6{
     font-size: 25px;
 }
 .font_s7{
-    font-size:  25px;
+    font-size:  23px;
+    font-weight: 800;
 }
 .font_c1{
     color: rgb(199, 199, 106);
@@ -122,7 +125,7 @@ body{
     padding-top: 30px;
 }
 .padding5{
-    padding-bottom: 40px;
+    padding-bottom: 36px;
 }
 .padding6{
     padding-top: 20px;
@@ -134,22 +137,25 @@ body{
 .padding8{
     padding-top: 7px;
 }
+.padding9{
+    padding-bottom: 25px;
+}
 .font_f{
     font-family: sans-serif;
 }
 .linespacing{
-    line-height: 25px;
+    line-height: 20px;
     list-style: none;
 }
 .linespacing1{
-    line-height: 23px;
+    line-height: 25px;
     list-style: none;
 }
 .fa-right-long{
     color: rgb(190, 190, 118);
 }
 .margin_l{
-    margin-left: 50px;
+    margin-left: 7px;
 }
 .padding8{
     padding-top: 25px;
