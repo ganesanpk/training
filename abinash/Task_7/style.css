@@ -135,6 +135,7 @@ body{
 @media only screen and (min-width:320px) and (max-width:480px){
     .nofloat{
         float: none;
+        margin-top: 10px;
         width: 100%;
     }
 }
@@ -142,6 +143,7 @@ body{
 @media only screen and (min-width:481px) and (max-width:520px){
     .nofloat{
         float: none;
+        margin-top: 10px;
         width: 100%;
     }
 }
@@ -149,6 +151,7 @@ body{
 @media only screen and (min-width:521px) and (max-width:620px){
     .nofloat{
         float: none;
+        margin-top: 10px;
         width: 100%;
     }
 }
@@ -156,6 +159,7 @@ body{
 @media only screen and (min-width:621px) and (max-width:768px){
     .nofloat{
         float: none;
+        margin-top: 10px;
         width: 100%;
     }
 }
@@ -163,6 +167,7 @@ body{
 @media only screen and (min-width:767px) and (max-width:992px){
     .nofloat{
         float: none;
+        margin-top: 10px;
         width: 100%;
     }
 }
@@ -170,6 +175,7 @@ body{
 @media only screen and (min-width:993px) and (max-width:1024px){
     .nofloat{
         float: none;
+        margin-top: 10px;
         width: 100%;
     }
 }
