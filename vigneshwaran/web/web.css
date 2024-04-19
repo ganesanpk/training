@@ -54,7 +54,7 @@ body{
 }
 button{
     width: 15%;
-    padding-top: 5px;
+    padding-top: 10px;
     padding-bottom: 5px;
     margin-right: 10px;
     border: none;
@@ -83,7 +83,7 @@ button1{
 .font-style2{
     font-size: 18px;    
     font-family: italic;
-    line-height: 30px;
+    line-height: 25px;
 }
 .font-style4{
     font-size: 25px;
@@ -168,8 +168,8 @@ button1{
 .box{
     margin-top: 5px;
     margin-bottom: 5px;
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 148px;
+    padding-bottom: 148px;
     background-color: white;
     border: 1px solid black;
 }
@@ -189,8 +189,6 @@ button1{
 .box2{
     margin-top: 15px;
     margin-bottom: 15px;
-    padding-top: 5px;
-    padding-bottom: 5px;
     background-color: white;
     border: 1px solid black;
 }
@@ -225,4 +223,13 @@ button1{
 .wid1{
     width: 99%;
     margin: 0 auto;
+}
+.padding3{
+    padding-top: 30px;
+}
+.padding4{
+    padding-top: 10px;
+}
+.line{
+    line-height: 30px;
 }
