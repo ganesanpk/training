@@ -11,16 +11,3 @@ body{
     border: 1px solid green;
     border-radius: 20px;
 }
-.margin{
-    margin-bottom: 10px;
-}
-.padding{
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-.bg_color{
-    background-color: green;
-}
-.bg{
-    background-color: purple;
-}
