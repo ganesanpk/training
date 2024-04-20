@@ -1,0 +1,19 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+.bg_img{
+    background-image: url(img1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.txtalgin{
+    text-align: center;
+}
+.width{
+    width: 60%;
+    margin: 0 auto;
+}
+.color_a{
+    color: rgb(156, 98, 211);
+}
