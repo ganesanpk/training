@@ -182,7 +182,7 @@ body{
     }
 }
 
-@media only screen and (min-width:621px ) and (max-width:768px){
+/*@media only screen and (min-width:621px ) and (max-width:768px){
     .nofloat{
         float: none;
         width: 100%;
@@ -201,4 +201,4 @@ body{
         float: none;
         width: 100%;
     }
-}
+}*/

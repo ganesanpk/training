@@ -13,12 +13,20 @@
 <body>
     <div class="bg_img style padding">
         <div class="width margin bg-white">
-            <h1 class="p-4 color_a txtalign">Login Page</h1>
-            <form method="post" id="myform">
+            <h1 class="p-4 color_a txtalign">Registration Page</h1>
+            <form method="post" id="myformreg">
                 <div class="p-3 color_a width_a margin">
-                    <label for="Login">Login Id</label>
+                    <label for="username">Username</label>
                     <div>
-                        <input type="text" id="login" name="login id" placeholder="Enter your login id.." minlength="3"
+                        <input type="text" id="login" name="login id" placeholder="Enter your name.." minlength="3"
+                            maxlength="20" pattern="[A-Za-z]">
+                    </div>
+                    <span class="error_msg" id="name_error"></span>
+                </div>
+                <div class="p-3 color_a width_a margin">
+                    <label for="email">Email</label>
+                    <div>
+                        <input type="text" id="login" name="login id" placeholder="Enter your email id.." minlength="3"
                             maxlength="20" pattern="[A-Za-z]">
                     </div>
                     <span class="error_msg" id="name_error"></span>
@@ -31,24 +39,25 @@
                     </div>
                     <span class="error_msg" id="lname_error"></span>
                 </div>
+                <div class="p-3 color_a width_a margin">
+                    <label for="confirm_password">Confirm Password</label>
+                    <div>
+                        <input type="text" id="pswd" name="password" placeholder="Enter your confirm password.."
+                            minlength="2" maxlength="14">
+                    </div>
+                    <span class="error_msg" id="lname_error"></span>
+                </div>
                 <div class="p-2 txtalign">
                     <input type="submit" id="sumbit" class="bg_a width_b" value="Submit">
                 </div>
-                <div class="txtalign">
-                    <a href="#" class="forget_pswd" style="text-decoration: none;">Forget Password?</a>
-                </div>
                 <div class="pb-5 txtalign">
-                    <a href="#" class="create account" style="text-decoration: none;"  id="register" onclick="window.location='register.html'">Do you haven't an account?create
-                        account</a>
+                    <a href="#" class="create account" style="text-decoration: none;" onclick="window.location='index.html'">Already have an account?Please
+                        login</a>
                 </div>
             </form>
         </div>
-
     </div>
+
 </body>
 
 </html>
-
-<script>
-    
-</script>
