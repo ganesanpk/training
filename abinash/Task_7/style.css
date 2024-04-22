@@ -49,7 +49,7 @@ body{
     padding-bottom: 10px;
 }
 .bg_color1{
-    background-color: #351b11;
+    background-color: #442519;
 }
 .bg_color2{
     background-color: #35170d;
@@ -138,44 +138,96 @@ body{
         margin-top: 10px;
         width: 100%;
     }
+    .nofloat_l1{
+        float: none;
+        margin-top: 10px;
+        width: 65%;
+    }
+
+    .dis_block1{
+        display: block;
+    }
+
+    .text_align1{
+        text-align: center;
+    }
+
+    .border_r1{
+        border: none;
+    }
+
 }
 
 @media only screen and (min-width:481px) and (max-width:520px){
-    .nofloat{
+    .nofloat1{
         float: none;
         margin-top: 10px;
         width: 100%;
+    }
+
+    .nofloat_l2{
+        float: none;
+        margin-top: 10px;
+        width: 65%;
+    }
+
+    .dis_block2{
+        display: block;
+    }
+
+    .text_align2{
+        text-align: center;
+    }
+
+    .border_r2{
+        border: none;
     }
 }
 
 @media only screen and (min-width:521px) and (max-width:620px){
-    .nofloat{
+    .nofloat2{
         float: none;
         margin-top: 10px;
         width: 100%;
+    }
+
+    .nofloat_l3{
+        float: none;
+        margin-top: 10px;
+        width: 65%;
+    }
+
+    .dis_block3{
+        display: block;
+    }
+
+    .text_align3{
+        text-align: center;
+    }
+
+    .border_r3{
+        border: none;
     }
 }
 
 @media only screen and (min-width:621px) and (max-width:768px){
-    .nofloat{
+    .nofloat3{
         float: none;
         margin-top: 10px;
         width: 100%;
+    }
+
+    .dis_block4{
+        display: block;
+    }
+
+    .text_align4{
+        text-align: center;
+    }
+
+    .border_r4{
+        border: none;
     }
 }
 
-@media only screen and (min-width:767px) and (max-width:992px){
-    .nofloat{
-        float: none;
-        margin-top: 10px;
-        width: 100%;
-    }
-}
-
-@media only screen and (min-width:993px) and (max-width:1024px){
-    .nofloat{
-        float: none;
-        margin-top: 10px;
-        width: 100%;
-    }
-}
+ 
