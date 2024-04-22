@@ -12,34 +12,36 @@ body{
     background-color: rgb(255, 203, 103);
 }
 .color3{
-    background-color: rgb(219, 120, 53);
+    background-color: rgb(224, 129, 71);
 }
 .color4{
     background-color: rgb(204, 255, 50);
+    font-weight: bold;
+    color: black;
 }
 .color5{
     background-color: rgb(49, 136, 231);
 }
 .padding{
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .padding0{
-    padding-top: 26px;
-    padding-bottom: 26px;
+    padding-top: 37.5px;
+    padding-bottom: 37.5px;
 }
 .border{
-    border-bottom: 10px solid rgb(224, 129, 71);
+    border-bottom: 15px solid rgb(224, 129, 71);
 }
 .tex-in{
     text-indent: 10px;
 }
 .wfl{
-    width: 50%;
+    width: 70%;
     float: left;
 }
 .wfr{
-    width: 50%;
+    width: 30%;
     float: right;
 }
 .witdh-main{
@@ -52,68 +54,78 @@ body{
 }
 button{
     width: 15%;
-    padding-top: 5px;
+    padding-top: 10px;
     padding-bottom: 5px;
     margin-right: 10px;
     border: none;
     color: white;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+    font-size: 20px;
+}
+button1{
+    width: 15%;
+    padding: 5PX;
+    margin-bottom: 5px;
+    color: white;
+    border-radius: 5PX;
 }
 .font-style{
-    font-size: 25px;
+    font-size: 40px;
     font-weight: bold;
     color: white;
 }
 .font-style1{
-    font-size: 15px;
+    font-size: 25px;
     font-weight: bold;
     color: rgb(199, 99, 14);
 }
 .font-style2{
-    font-size: 10px;    
-    font-weight: italic;
-}
-.font-style3{
-    font-size: 10px;
-    font-weight: bold;
+    font-size: 18px;    
+    font-family: italic;
+    line-height: 25px;
 }
 .font-style4{
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
     color: rgb(158, 64, 10);
 }
 .font-style5{
-    font-size: 10px;
+    font-size: 18px;
     font-weight: bold;
     color: rgb(118, 74, 49);
 }
 .font-style6{
-    font-size: 12px;
+    font-size: 20px;
     font-weight: bold;
+    padding-bottom: 20px;
 }
 .font-style7{
-    font-size: 10px;
+    font-size: 18px;
     font-weight: bold;
     color: rgb(139, 60, 0);
 }
 .font-style8{
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
     color: white;
 }
 .font-style9{
-    font-size: 12px;
+    font-size: 15px;
     font-weight: bold;
     color: white;
 }
 .font-style10{
-    font-size: 10px;
+    font-size: 12px;
     font-weight: bold;
     color: rgb(118, 74, 49);
 }
+.font-style11{
+    font-size: 25px;
+    font-weight: bold;
+}
 .feet{
-    font-size: 15px;
+    font-size: 25px;
     font-weight: bold;
     color: white;
     background-color: rgb(234, 162, 104);
@@ -121,7 +133,7 @@ button{
     margin-right: 5px;
 }
 .tweet{
-    font-size: 15px;
+    font-size: 25px;
     font-weight: bold;
     color: white;
     background-color: rgb(130, 197, 205);
@@ -129,7 +141,7 @@ button{
     margin-right: 5px;
 }
 .face{
-    font-size: 15px;
+    font-size: 25px;
     font-weight: bold;
     color: white;
     background-color: rgb(75, 104, 164);
@@ -148,26 +160,35 @@ button{
     padding-top: 10px;
     padding-bottom: 10px;
 }
+.padding2{
+    padding-top: 10px;
+    padding-bottom: 120px;
+    border-bottom: 1px solid black;
+}
 .box{
     margin-top: 5px;
     margin-bottom: 5px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 148px;
+    padding-bottom: 148px;
     background-color: white;
     border: 1px solid black;
 }
 .box1{
     margin-top: 20px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding: 1px;
+    background-color: rgb(255, 203, 103);
+    border: 1px solid black;
+}
+.box5{
+    margin: 2px;
+    padding-top: 70px;
+    padding-bottom: 70px;
     background-color: white;
-    border: 4px double rgb(255, 190, 86);
+    border: 1px solid black;
 }
 .box2{
     margin-top: 15px;
     margin-bottom: 15px;
-    padding-top: 5px;
-    padding-bottom: 5px;
     background-color: white;
     border: 1px solid black;
 }
@@ -180,11 +201,11 @@ button{
     border: 1px solid black;
 }
 .wfl2{
-    width: 40%;
+    width: 30%;
     float: left;
 }
 .wfr2{
-    width: 60%;
+    width: 70%;
     float: right;
 }
 .wfl3{
@@ -195,6 +216,20 @@ button{
     width: 40%;
     float: right;
 }
-.widths{
-    text-indent: 80px;
+.wid{
+    width: 95%;
+    margin: 0 auto;
+}
+.wid1{
+    width: 99%;
+    margin: 0 auto;
+}
+.padding3{
+    padding-top: 30px;
+}
+.padding4{
+    padding-top: 10px;
+}
+.line{
+    line-height: 30px;
 }
