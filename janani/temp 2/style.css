@@ -1,4 +1,4 @@
-boby{
+body{
     margin: 0 auto;
     padding: 0;
 }
@@ -6,7 +6,7 @@ boby{
     font-size: 40px;
 }
 .border{
-    border: 2px solid black;
+    border: 2px solid white;
 }
 .margin{
     margin-bottom: 10px;
@@ -15,8 +15,8 @@ boby{
     text-align: center;
 }
 .padding{
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
 .float_left{
     float:left;
@@ -28,11 +28,19 @@ boby{
     width: 46%;
 }
 .padding2{
-    padding-top: 40px;
-    padding-right: 30px;
+    padding-top: 49px;
+    padding-right: 49px;
 }
 .padding3{
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
-.stan
+.bg_color{
+    background-color: #0d7962;
+}
+.font_color{
+    color:white;
+}
+.font_size2{
+    font-size:small;
+}
