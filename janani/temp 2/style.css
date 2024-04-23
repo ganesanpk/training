@@ -1,0 +1,38 @@
+boby{
+    margin: 0 auto;
+    padding: 0;
+}
+.font_size{
+    font-size: 40px;
+}
+.border{
+    border: 2px solid black;
+}
+.margin{
+    margin-bottom: 10px;
+}
+.txt_center{
+    text-align: center;
+}
+.padding{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.float_left{
+    float:left;
+}
+.float_right{
+    float:right;
+}
+.width{
+    width: 46%;
+}
+.padding2{
+    padding-top: 40px;
+    padding-right: 30px;
+}
+.padding3{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.stan
