@@ -26,10 +26,10 @@
                 <div class="p-3 color_a width_a margin">
                     <label for="email">Email</label>
                     <div>
-                        <input type="text" id="login" name="login id" placeholder="Enter your email id.." minlength="3"
+                        <input type="email" id="email" name="emailid" placeholder="Enter your email id.." minlength="3"
                             maxlength="20" pattern="[A-Za-z]">
                     </div>
-                    <span class="error_msg" id="name_error"></span>
+                    <span class="error_msg" id="email_error"></span>
                 </div>
                 <div class="p-3 color_a width_a margin">
                     <label for="password">Password</label>
@@ -37,15 +37,15 @@
                         <input type="text" id="pswd" name="password" placeholder="Enter your password.." minlength="2"
                             maxlength="14">
                     </div>
-                    <span class="error_msg" id="lname_error"></span>
+                    <span class="error_msg" id="pswd_error"></span>
                 </div>
                 <div class="p-3 color_a width_a margin">
                     <label for="confirm_password">Confirm Password</label>
                     <div>
-                        <input type="text" id="pswd" name="password" placeholder="Enter your confirm password.."
+                        <input type="text" id="conpswd" name="password" placeholder="Enter your confirm password.."
                             minlength="2" maxlength="14">
                     </div>
-                    <span class="error_msg" id="lname_error"></span>
+                    <span class="error_msg" id="conpswd_error"></span>
                 </div>
                 <div class="p-2 txtalign">
                     <input type="submit" id="sumbit" class="bg_a width_b" value="Submit">
@@ -61,3 +61,47 @@
 </body>
 
 </html>
+<script>
+    document.getElementById('myform').addEventListener("submit", function (event) {
+
+        event.preventDefault();
+        var login = document.getElementById('login').value;
+        var email = document.getElementById('email').value;
+        var pswd = document.getElementById('pswd').value;
+        var conpswd = document.getElementById('conpswd').value;
+        var name_error = document.getElementById('name_error').value;
+        var email_error = document.getElementById('email_error').value;
+        var pswd_error = document.getElementById('pswd_error').value;
+        var conpswd_error = document.getElementById('conpswd_error').value;
+        if (login == "") {
+            document.getElementById('name_error').innerHTML = "Please enter your firstname";
+            isvalid = false;
+        }
+        else {
+            document.getElementById('name_error').innerHTML = "";
+        }
+
+        if (email == "") {
+            document.getElementById('email_error').innerHTML = "Please enter your email id";
+            isvalid = false;
+        }
+        else {
+            document.getElementById('email_error').innerHTML = "";
+        }
+        if (pswd == "") {
+            document.getElementById('pswd_error').innerHTML = "Please enter your password";
+            isvalid = false;
+        }
+        else {
+            document.getElementById('pswd_error').innerHTML = "";
+        }
+        if (conpswd == "") {
+            document.getElementById('conpswd_error').innerHTML = "Please enter your confirm password";
+            isvalid = false;
+        }
+        else {
+            document.getElementById('conpswd_error').innerHTML = "";
+        }
+    }
+    );
+</script>
