@@ -132,6 +132,10 @@ body{
     font-size: 18px;
     padding: 10px 0px ;
 }
+.img_prop{
+    width: 100%;
+    height: 200px;
+}
 @media only screen and (min-width:320px) and (max-width:480px){
     .nofloat{
         float: none;
@@ -141,9 +145,14 @@ body{
     .nofloat_l1{
         float: none;
         margin-top: 10px;
-        width: 65%;
+        width: 100%;
+        
+        align-items: center;
     }
-
+    .align_img{
+        text-align: center;
+       
+    }
     .dis_block1{
         display: block;
     }
@@ -154,6 +163,9 @@ body{
 
     .border_r1{
         border: none;
+    }
+    .img_prop{
+        max-width: min-content;
     }
 
 }
