@@ -1,0 +1,34 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+.bg_a{
+    background-color: #e9e2c6;
+}
+.txtalign{
+    text-align: center;
+}
+.bg_b{
+    background-color: #fadfdb;
+}
+.color{
+    color: #ed9180;
+}
+.width{
+    width: 60%;
+    margin: 0 auto;
+}
+.color_a{
+    color: #fc9b8a;
+}
+.font_f{
+    font-family: 'Pangolin', cursive;
+}
+.bg_img{
+    background-image: url(img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg_c{
+    color: #747373;
+}

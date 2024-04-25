@@ -1,0 +1,114 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    background-color: rgb(43, 138, 62);
+}
+.padding{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.margin{
+    margin: 0 auto;
+    width: 99%;
+}
+.margin0{
+    width: 100%;
+    margin: 0 auto;
+    margin-left: -5px;
+}
+.baground{
+    background-color: rgb(169, 209, 142);
+}
+.baground1{
+    background-color: rgb(226, 240, 217);
+}
+.margin1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.margin2{
+    width: 95%;
+    margin: 0 auto;
+}
+.margin3{
+    width: 100%;
+    border-top: 10px solid rgb(169, 209, 142);
+}
+.padding1{
+    padding-bottom: 40px;
+}
+.border{
+    border: 5px solid rgb(169, 209, 142);
+}
+.wfl{
+    width: 70%;
+    float: left;
+}
+.wfr{
+    width: 29%;
+    float: right;
+}
+.padding2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.padding3{
+    padding-top: 56px;
+    padding-bottom: 56px;
+}
+.padding4{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.text{
+    text-align: center;
+}
+.wfl1{
+    width: 48%;
+    float: left;
+}
+.wfr1{
+    width: 48%;
+    float: right;
+}
+.border1{
+<<<<<<< HEAD
+    border: 5px solid rgb(43, 138, 62);
+}
+.intent{
+    text-indent: 10px;
+=======
+    border-right: 10px solid rgb(43, 138, 62);
+}
+.text1{
+    text-indent: 5px;
+}
+.padding6{
+    padding-top: 40.5px;
+    padding-bottom: 40.5px;
+}
+.margin4{
+    width: 99%;
+    margin: 0 auto;
+}
+.margin5{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.padding7{
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.margin6{
+    margin-top: 10px;
+<<<<<<< HEAD
+}
+.margin7{
+    margin-bottom: 10px;
+}
+.margin8{
+    margin-bottom: 5px;
+=======
+>>>>>>> 01dc988a16c3c2e1f6369ddb22ff9c4a80e91ef0
+>>>>>>> 139bb15c492a840365430967f4543b939fb22f8f
+}

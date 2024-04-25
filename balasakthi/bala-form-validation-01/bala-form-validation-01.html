@@ -60,7 +60,7 @@
             
             <div>
                 <label  class="pe-3 f1">Date of Birth:</label>
-                <input  type="date" name="date" id="date">
+                <input  type="date" name="date" id="date" onchange="agecall()">
                 <div id="dateerror" class="error"></div>
             </div><br>  
             <div class="row">
@@ -111,11 +111,18 @@
         </form>
     </div>
     <script>
+            function agecall(){
+                var dob = document.getElementById('date').value;
+                var agenew = document.getElementById('age');
+                var dobdate = new Date(dob);
+                var cdate = new Date();
+                var age = cdate.getFullYear() - dobdate.getFullYear();                
+               agenew.value = age;
+            }
         function test(event){
             var username = document.getElementById("username").value;
             var email = document.getElementById("email").value;
-            var password = document.getElementById("password").value;
-            var age = document.getElementById("age").value;
+            var password = document.getElementById("password").value;           
             var date = document.getElementById("date").value;
             var radio = document.getElementById("radio").checked;
             var check = document.getElementById("check").checked;
@@ -125,7 +132,10 @@
             var age_error = 1;
             var date_error = 1;
             var radio_error = 1;
-            var check_error = 1;
+            var check_error = 1;               
+            
+            
+            
             if(username == ""){
                 document.getElementById("usernameerror").innerHTML = "username should not be entry";
                 username_error = 0;
@@ -150,19 +160,19 @@
                 password_error = 1;
             }
             
-            if(age == ""){
-                document.getElementById("ageerror").innerHTML = "enter the age";
-                age_error = 0;
-            }else{
-                document.getElementById("ageerror").innerHTML ="";
-                age_error = 1;
-            }
+            // if(age == ""){
+            //     document.getElementById("ageerror").innerHTML = "enter the age";
+            //     age_error = 0;
+            // }else{
+            //     document.getElementById("ageerror").innerHTML ="";
+            //     age_error = 1;
+            // }
             
             if(date == ""){
                 document.getElementById("dateerror").innerHTML = "enter the date";
                 date_error = 0;
             }else{
-                document.getElementById("dateerror").innerHTML ="";
+               age = 
                 date_error = 1;
             }
             
