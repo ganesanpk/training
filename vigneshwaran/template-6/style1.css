@@ -53,7 +53,7 @@ button{
     border: none;
     margin-right: 10px;
 }
-button1{
+.button1{
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
@@ -99,7 +99,9 @@ button3{
 }
 .bg-image{
     background-image: url(hand.jpeg);
-    background-position: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     height: 100px;
     width: 100%;
 }

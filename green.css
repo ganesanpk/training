@@ -1,0 +1,20 @@
+body{
+    margin:0 auto;  
+} 
+.align_text{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+color: white;
+}
+.border{
+    border:1px solid green;
+    border-radius: 20px;
+}
+.margin{
+margin-bottom: 10px;
+}
+.padding{
+padding-top: 10px;
+padding-bottom: 10px;
+}

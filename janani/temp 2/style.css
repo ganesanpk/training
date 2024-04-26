@@ -25,7 +25,10 @@ body{
     float:right;
 }
 .width{
-    width: 46%;
+    width: 69%;
+}
+.width1{
+    width: 30%;
 }
 .padding2{
     padding-top: 59px;
@@ -42,5 +45,5 @@ body{
     color:white;
 }
 .font_size2{
-    font-size: 25px;;
+    font-size:small;
 }
