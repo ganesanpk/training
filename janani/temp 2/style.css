@@ -9,7 +9,7 @@ body{
     border: 2px solid white;
 }
 .margin{
-    margin-bottom: 5px;
+    margin-bottom: 2px;
 }
 .txt_center{
     text-align: center;
@@ -31,10 +31,6 @@ body{
     width: 30%;
 }
 .padding2{
-    padding-top: 59px;
-    padding-bottom: 59px;
-}
-.padding3{
     padding-top: 70px;
     padding-bottom: 70px;
 }
@@ -45,5 +41,8 @@ body{
     color:white;
 }
 .font_size2{
-    font-size:small;
+    font-size:15px;
+}
+.line_height{
+    line-height: 20px;
 }
