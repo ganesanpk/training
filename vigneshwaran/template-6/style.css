@@ -15,23 +15,27 @@ header{
     float: right;
 }
 .wfl1{
-    width: 20%;
+    width: 18%;
     float: left;
 }
 .wfr1{
-    width: 80%;
+    width: 82%;
     float: right;
 }
 .wfl2{
-    width: 23.5%;
+    width: 24.25%;
     float: left;
+<<<<<<< HEAD
     margin-right: 2%;
+=======
+    margin-right: 1%;
+>>>>>>> be9db1ac3f307a46a758365359c75873818b2ae6
     margin-top: 70px;
     background-color: white;
     margin-bottom: 30px;
 }
 .wfr2{
-    width: 23.5%;
+    width: 24.25%;
     float: right;
     margin-top: 70px;
     background-color: white;
@@ -44,19 +48,14 @@ header{
     padding-top: 30px;
     padding-bottom: 30px;
 }
-button{
-    padding-top: 40px;
-    padding-bottom: 40px;
+.button1{
     color: white;
     background-color: black;
     border: none;
     margin-right: 10px;
 }
-button1{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+button{
+    padding: 10px;
     color: white;
     background-color: rgb(119, 187, 250);
     border: none;
@@ -65,7 +64,7 @@ button1{
     margin-right: 10px;
     font-size: 12px;
 }
-button2{
+.button2{
     color: black;
     border: none;
     font-weight: bold;
@@ -73,18 +72,16 @@ button2{
 }
 .fa-brands{
     color: rgb(119, 187, 250);
+    margin-right: 5px;
 }
-button3{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+.button3{
+    padding: 10px;
     color: white;
     background-color: rgb(119, 187, 250);
     border: none;
     font-weight: normal;
     border-radius: 15px;
-    margin-right: 10px;
+    margin: 20px;
     font-size: 15px;
 }
 .margin{
@@ -121,14 +118,14 @@ button3{
 .text{
     text-align: center;
 }
-.padding2{
-    padding-top: 15px;
-    padding-bottom: 25px;
-}
 .bgcolor{
     background-color: white;
 }
 .padding3{
     padding: 5px;
     margin-left: 5px;
+}
+.padding2{
+    padding-top: 30px;
+    padding-bottom: 30px;
 }

@@ -15,8 +15,8 @@ body{
     text-align: center;
 }
 .padding{
-    padding-top: 1px;
-    padding-bottom: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .float_left{
     float:left;
@@ -25,7 +25,10 @@ body{
     float:right;
 }
 .width{
-    width: 46%;
+    width: 69%;
+}
+.width1{
+    width: 30%;
 }
 .padding2{
     padding-top: 49px;
@@ -42,5 +45,8 @@ body{
     color:white;
 }
 .font_size2{
-    font-size:25px;
+    font-size:15px;
+}
+.line_height{
+    line-height: 20px;
 }
