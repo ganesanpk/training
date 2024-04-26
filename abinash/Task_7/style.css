@@ -95,7 +95,7 @@ body{
     width: 20%;
 }
 .width_right{
-    width: 80%;
+    width: 78%;
 }
 .width_l1{
     width: 20%;
@@ -134,6 +134,11 @@ body{
     padding: 10px 0px ;
     font-weight: bold;
 }
+
+.align_img{
+    text-align: center;
+}
+
 @media only screen and (min-width:320px) and (max-width:480px){
     .nofloat{
         float: none;
@@ -145,6 +150,8 @@ body{
         margin-top: 10px;
         width: 65%;
     }
+     
+    
 
     .dis_block1{
         display: block;
@@ -156,6 +163,10 @@ body{
 
     .border_r1{
         border: none;
+    }
+
+    .img_prop{
+        max-width: min-content;
     }
 
 }
@@ -184,6 +195,8 @@ body{
     .border_r2{
         border: none;
     }
+
+    
 }
 
 @media only screen and (min-width:521px) and (max-width:620px){
