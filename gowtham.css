@@ -1,0 +1,13 @@
+body{
+    margin: 0 auto;
+}
+.align_text{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+.border{
+    border: 1px solid green;
+    border-radius: 20px;
+}
