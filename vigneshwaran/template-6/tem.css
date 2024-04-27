@@ -7,11 +7,11 @@ header{
     background-color: black;
 }
 .wfl{
-    width: 50%;
+    width: 45%;
     float: left;
 }
 .wfr{
-    width: 50%;
+    width: 55%;
     float: right;
 }
 .wfl1{
@@ -37,6 +37,14 @@ header{
     background-color: white;
     margin-bottom: 30px;
 }
+.wfl3{
+    width: 71%;
+    float: left;
+}
+.wfr3{
+    width: 29%;
+    float: right;
+}
 .fond-style{
     font-size: 25px;
     color: white;
@@ -48,17 +56,25 @@ header{
     color: white;
     background-color: black;
     border: none;
-    margin-right: 10px;
+    margin-right: 20px;
 }
-button{
+.fa-solid{
+    margin-left: 5px;
+}
+.button{
     padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     color: white;
     background-color: rgb(119, 187, 250);
     border: none;
     font-weight: bold;
-    border-radius: 10px;
+    border-radius: 20px;
     margin-right: 10px;
     font-size: 12px;
+}
+a{
+    text-decoration: none;
 }
 .button2{
     color: black;
@@ -68,7 +84,7 @@ button{
 }
 .fa-brands{
     color: rgb(119, 187, 250);
-    margin-right: 5px;
+    margin-right: 7px;
 }
 .button3{
     padding: 10px;
@@ -125,6 +141,12 @@ button{
     padding-top: 30px;
     padding-bottom: 30px;
 }
+<<<<<<< HEAD
 a{
     text-decoration: none;
+=======
+.wid{
+    width: 99%;
+    margin: 0 auto;
+>>>>>>> 20084879f61b7a151dbd05c568f89a08517dca2b
 }
