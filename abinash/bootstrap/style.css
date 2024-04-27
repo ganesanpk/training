@@ -1,80 +1,299 @@
-body{
+body {
     padding: 0;
     margin: 0;
 }
 
-.fa-phone{
-    color:  rgb(218, 218, 218);
+.fa-phone {
+    color: rgb(218, 218, 218);
 }
-.bg_color{
+
+.fa-check {
+    color: black;
+    font-weight: bold;
+    font-size: 4;
+}
+
+.bg_color {
     background-color: gray;
 }
 
-.bg_o{
+.bg_o {
     background-color: rgb(245, 55, 55);
     font-size: medium;
 }
 
-.text_align{
+.text_align {
     text-align: center;
 }
 
-.txt_r{
+.txt_r {
     text-align: right;
 }
 
-.width_a{
+.width_a {
     width: 8%;
 }
 
-.margin_a{
+.width_b {
+    width: 40%;
+}
+
+.margin_a {
     margin: 0 auto;
 }
 
-.text-bold{
-     font-weight: bold;
-     font-size:  26px;
+.text-bold {
+    font-weight: bold;
+    font-size: 26px;
 }
-.color_1{
+
+.color_1 {
     color: rgb(255, 167, 4);
 }
 
-.color_2{
+.color_2 {
     color: rgb(216, 67, 67);
 }
 
-.font_s1{
+.color_3 {
+    color: rgb(20, 20, 20);
+}
+
+.font_s1 {
     font-size: 24px;
 }
 
-.font_s2{
+
+.font_s2 {
     font-size: 15px;
 }
 
-.font_s3{
+.bold {
+    font-weight: bolder;
+}
+
+.font_s3 {
     font-size: 200%;
     font-weight: bolder;
 }
 
-.border_n{
+.font_s4 {
+    font-size: 25px;
+}
+
+.font_s5 {
+    font-size: 28px;
+}
+
+.bg_i {
+    background-image: linear-gradient(to bottom, #cac6c6, #121213);
+}
+
+.bg_l {
+    background-image: linear-gradient(to bottom, #ffe6e6, #f7544e);
+}
+
+.bg_j {
+    background-color: #555555;
+}
+
+.bg_k {
+    background-color: #39393a;
+}
+
+.bg_m {
+    background-color: #757575;
+}
+
+.bg_m1 {
+    background-color: #5f5f5f;
+}
+
+.bg_n {
+    background-color: #2d2d30;
+}
+
+.bg_p {
+    background-color: #121213;
+}
+
+.button_color {
+    background-color: rgb(212, 68, 68);
+}
+
+.bg_button {
+    background-color: rgb(255, 93, 64);
+}
+
+span {
+    font-size: 10px;
+    font-weight: bolder;
+}
+
+.border_n {
     border: none;
 }
 
-.fa-angle-down{
+.fa-angle-down {
     font-size: 10px;
 }
 
-.bg_img{
+.bg_img {
     background-image: url(img.png);
     background-size: cover;
     background-position: 50%;
-    background-repeat: no-repeat; 
-     
+    background-repeat: no-repeat;
+
 }
 
-.padding{
+.padding {
     padding-top: 2%;
     padding-bottom: 20%;
 }
 
+.border_b {
+    border-bottom: 1px solid rgb(194, 194, 194);
+}
+
+.bg_j {
+    background-image: linear-gradient();
+}
+
+.fa-quote-left {
+    font-size: 60px;
+    color: #cac6c6;
+}
+
+.fa-quote-right {
+    font-size: 60px;
+    color: #cac6c6;
+}
+
+.linespacing {
+    line-height: 25px;
+}
+
+.font_s5 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #555555;
+}
+
+.padding {
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+.font_s6 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.font_s7 {
+    font-weight: 500;
+}
+
+.fa-envelope {
+    font-size: small;
+}
+
+.phone {
+    font-size: small;
+}
+
+.fa-angle-up {
+    font-size: 25px;
+    background-color: #7e2c29;
+    width: 3%;
+    color: #cac6c6;
+}
+
+ @media screen and (min-width:320px) and (max-width:480px) {
+        .nofloat{
+            margin-top: 10px;
+        }
+        .txt_align{
+            text-align: center;
+        }
+        .width1{
+            width: 30%;
+        }
+        .margin1{
+            margin: 0 auto;
+        }
+ }
  
+ @media screen and (min-width:481px) and (max-width:560px) {
+    .nofloat{
+        margin-top: 10px;
+    }
+    .txt_align{
+        text-align: center;
+    }
+    .width1{
+        width: 30%;
+    }
+    .margin1{
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width:561px) and (max-width:620px) {
+    .nofloat{
+        margin-top: 10px;
+    }
+    .txt_align{
+        text-align: center;
+    }
+    .width1{
+        width: 30%;
+    }
+    .margin1{
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width:621px) and (max-width:768px) {
+    .nofloat{
+        margin-top: 10px;
+    }
+    .txt_align{
+        text-align: center;
+    }
+    .width1{
+        width: 30%;
+    }
+    .margin1{
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    .nofloat{
+        margin-top: 10px;
+    }
+    .txt_align{
+        text-align: center;
+    }
+    .width1{
+        width: 30%;
+    }
+    .margin1{
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width:993px) and (max-width:1024px) {
+    .nofloat{
+        margin-top: 10px;
+    }
+    .txt_align{
+        text-align: center;
+    }
+    .width1{
+        width: 30%;
+    }
+    .margin1{
+        margin: 0 auto;
+    }
+}
