@@ -1,134 +1,48 @@
 body{
     margin: 0 auto;
     padding: 0;
-    background-color: #444444;
 }
-header{
-    background-color: black;
+.font_size{
+    font-size: 40px;
 }
-.wfl{
-    width: 50%;
-    float: left;
-}
-.wfr{
-    width: 50%;
-    float: right;
-}
-.wfl1{
-    width: 20%;
-    float: left;
-}
-.wfr1{
-    width: 80%;
-    float: right;
-}
-.wfl2{
-    width: 23.5%;
-    float: left;
-    margin-right: 20px;
-    margin-top: 70px;
-    background-color: white;
-    margin-bottom: 30px;
-}
-.wfr2{
-    width: 23.5%;
-    float: right;
-    margin-top: 70px;
-    background-color: white;
-    margin-bottom: 30px;
-}
-.fond-style{
-    font-size: 25px;
-    color: white;
-    font-weight: bold;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-button{
-    padding-top: 40px;
-    padding-bottom: 40px;
-    color: white;
-    background-color: black;
-    border: none;
-    margin-right: 10px;
-}
-button1{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    color: white;
-    background-color: rgb(119, 187, 250);
-    border: none;
-    font-weight: bold;
-    border-radius: 10px;
-    margin-right: 10px;
-    font-size: 12px;
-}
-button2{
-    color: black;
-    border: none;
-    font-weight: bold;
-    margin-right: 10px;
-}
-.fa-brands{
-    color: rgb(119, 187, 250);
-}
-button3{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    color: white;
-    background-color: rgb(119, 187, 250);
-    border: none;
-    font-weight: normal;
-    border-radius: 15px;
-    margin-right: 10px;
-    font-size: 15px;
+.border{
+    border: 1px solid white;
 }
 .margin{
-    margin: 0 auto;
-    width: 80%;
+    margin-bottom: 2px;
 }
-.fond-style1{
-    font-size: 50px;
-    color: white;
-    font-weight: bold;
-    text-align: right;
-    padding: 20px;
-    padding-top: 40px;
-}
-.fond-style2{
-    font-size: 20px;
-    color: black;
-    font-weight: bold;
-}
-.fond-style3{
-    font-size: 17px;
-    color: black;
-}
-.bg-image{
-    background-image: url(hand.jpeg);
-    background-position: center;
-    background-size: cover;
-    height: 100px;
-    background-position: 100px;
-    margin-top: 30px;
-    background-repeat: no-repeat;
-    margin-left: -100px;
-}
-.text{
+.txt_center{
     text-align: center;
 }
+.padding{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.float_left{
+    float:left;
+}
+.float_right{
+    float:right;
+}
+.width{
+    width: 69%;
+}
+.width1{
+    width: 30%;
+}
 .padding2{
-    padding-top: 15px;
-    padding-bottom: 25px;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
-.bgcolor{
-    background-color: white;
+.bg_color{
+    background-color: #0d7962;
 }
-.padding3{
-    padding: 5px;
-    margin-left: 5px;
+.font_color{
+    color:white;
+}
+.font_size2{
+    font-size:15px;
+}
+.line_height{
+    line-height: 20px;
 }
