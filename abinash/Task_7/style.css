@@ -148,7 +148,13 @@ body{
     .nofloat_l1{
         float: none;
         margin-top: 10px;
-        width: 65%;
+        width: 100%;
+        
+        align-items: center;
+    }
+    .align_img{
+        text-align: center;
+       
     }
      
     
@@ -163,6 +169,9 @@ body{
 
     .border_r1{
         border: none;
+    }
+    .img_prop{
+        max-width: min-content;
     }
 
     .img_prop{

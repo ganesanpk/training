@@ -1,0 +1,42 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+.padding{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.margin{
+    margin-bottom: 10px;
+}
+.border{
+    border: 1px solid black;
+}
+.background{
+    background-color: #0d7962;
+}
+.float_left{
+    float: left;
+}
+.float_right{
+    float: right;
+}
+.font_style{
+    font-size: 35px;
+    color: black;
+}
+.text_align{
+    text-align: center;
+}
+.width1{
+    width: 33%;
+}
+.width2{
+    width: 66%;
+}
+span{
+    font-size: small;
+}
+.height{
+    padding: 90px; 
+}
