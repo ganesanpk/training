@@ -1,0 +1,48 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+.font_size{
+    font-size: 40px;
+}
+.border{
+    border: 2px solid white;
+}
+.margin{
+    margin-bottom: 2px;
+}
+.txt_center{
+    text-align: center;
+}
+.padding{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.float_left{
+    float:left;
+}
+.float_right{
+    float:right;
+}
+.width{
+    width: 69%;
+}
+.width1{
+    width: 30%;
+}
+.padding2{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.bg_color{
+    background-color: #0d7962;
+}
+.font_color{
+    color:white;
+}
+.font_size2{
+    font-size:15px;
+}
+.line_height{
+    line-height: 20px;
+}

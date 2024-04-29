@@ -1,0 +1,138 @@
+body{
+    padding: 0;
+    margin: 0 auto;
+}
+.wfl{
+    width: 50%;
+    float: left;
+}
+.wfr{
+    width: 50%;
+    float: right;
+}
+.bg-color{
+    background-color:black ;
+}
+.wfl1{
+    width: 20%;
+    float: left;
+}
+.wfr1{
+    width: 80%;
+    float: right;
+}
+.fond-style{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.fond-style1{
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    text-align: right;
+    padding: 20px;
+    padding-top: 40px;
+}
+.fond-style2{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+.fond-style3{
+    font-size: 17px;
+    color: black;
+}
+button{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: white;
+    background-color: black;
+    border: none;
+    margin-right: 10px;
+}
+.button1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    background-color: rgb(119, 187, 250);
+    border: none;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-right: 10px;
+    font-size: 12px;
+}
+button2{
+    color: black;
+    background-color: rgb(119, 187, 250);
+    border: none;
+    font-weight: bold;
+    margin-right: 10px;
+}
+button3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    background-color: rgb(119, 187, 250);
+    border: none;
+    font-weight: normal;
+    border-radius: 15px;
+    margin-right: 10px;
+    font-size: 15px;
+}
+.bg-color1{
+    background-color: rgb(68, 68, 68);
+}
+.margin{
+    width: 80%;
+    margin: 0 auto;
+}
+.padding{
+    padding-top: 130px;
+    padding-bottom: 40px;
+}
+.bg-image{
+    background-image: url(hand.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100px;
+    width: 100%;
+}
+.wfl2{
+    width: 49%;
+    float: left;
+}
+.wfr2{
+    width: 49%;
+    float: right;
+}
+.wfl3{
+    width: 48%;
+    float: left;
+}
+.wfr3{
+    width: 48%;
+    float: right;
+}
+.padding1{
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.text{
+    text-align: center;
+}
+.padding2{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.padding3{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

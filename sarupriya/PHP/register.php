@@ -19,15 +19,15 @@
                     <label for="username">Username</label>
                     <div>
                         <input type="text" id="login" name="loginid" placeholder="Enter your name.." minlength="3"
-                            maxlength="20" pattern="[A-Za-z]">
+                            maxlength="20">
                     </div> 
                     <span class="error_msg" id="name_error"></span>
                 </div>
                 <div class="p-3 color_a width_a margin">
                     <label for="email">Email</label>
                     <div>
-                        <input type="email" id="email" name="emailid" placeholder="Enter your email id.." minlength="3"
-                            maxlength="20" pattern="[A-Za-z]">
+                        <input type="email" id="email" name="email" placeholder="Enter your email id.." minlength="3"
+                            maxlength="20">
                     </div>
                     <span class="error_msg" id="email_error"></span>
                 </div>
@@ -38,14 +38,6 @@
                             maxlength="14">
                     </div>
                     <span class="error_msg" id="pswd_error"></span>
-                </div>
-                <div class="p-3 color_a width_a margin">
-                    <label for="confirm_password">Confirm Password</label>
-                    <div>
-                        <input type="text" id="conpswd" name="password" placeholder="Enter your confirm password.."
-                            minlength="2" maxlength="14">
-                    </div>
-                    <span class="error_msg" id="conpswd_error"></span>
                 </div>
                 <div class="p-2 txtalign">
                     <input type="submit" id="sumbit" class="bg_a width_b" value="Submit">
@@ -68,11 +60,9 @@
         var login = document.getElementById('login').value;
         var email = document.getElementById('email').value;
         var pswd = document.getElementById('pswd').value;
-        var conpswd = document.getElementById('conpswd').value;
         var name_error = document.getElementById('name_error').value;
         var email_error = document.getElementById('email_error').value;
         var pswd_error = document.getElementById('pswd_error').value;
-        var conpswd_error = document.getElementById('conpswd_error').value;
         if (login == "") {
             document.getElementById('name_error').innerHTML = "Please enter your firstname";
             isvalid = false;
@@ -94,13 +84,6 @@
         }
         else {
             document.getElementById('pswd_error').innerHTML = "";
-        }
-        if (conpswd == "") {
-            document.getElementById('conpswd_error').innerHTML = "Please enter your confirm password";
-            isvalid = false;
-        }
-        else {
-            document.getElementById('conpswd_error').innerHTML = "";
         }
     }
     );

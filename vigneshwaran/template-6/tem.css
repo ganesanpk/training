@@ -1,0 +1,147 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    background-color: #444444;
+}
+header{
+    background-color: black;
+}
+.wfl{
+    width: 45%;
+    float: left;
+}
+.wfr{
+    width: 55%;
+    float: right;
+}
+.wfl1{
+    width: 18%;
+    float: left;
+}
+.wfr1{
+    width: 82%;
+    float: right;
+}
+.wfl2{
+    width: 24.25%;
+    float: left;
+    margin-right: 1%;
+    margin-top: 70px;
+    background-color: white;
+    margin-bottom: 30px;
+}
+.wfr2{
+    width: 24.25%;
+    float: right;
+    margin-top: 70px;
+    background-color: white;
+    margin-bottom: 30px;
+}
+.wfl3{
+    width: 71%;
+    float: left;
+}
+.wfr3{
+    width: 29%;
+    float: right;
+}
+.fond-style{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.button1{
+    color: white;
+    background-color: black;
+    border: none;
+    margin-right: 20px;
+}
+.fa-solid{
+    margin-left: 5px;
+}
+.button{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    background-color: rgb(119, 187, 250);
+    border: none;
+    font-weight: bold;
+    border-radius: 20px;
+    margin-right: 10px;
+    font-size: 12px;
+}
+a{
+    text-decoration: none;
+}
+.button2{
+    color: black;
+    border: none;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.fa-brands{
+    color: rgb(119, 187, 250);
+    margin-right: 7px;
+}
+.button3{
+    padding: 10px;
+    color: white;
+    background-color: rgb(119, 187, 250);
+    border: none;
+    font-weight: normal;
+    border-radius: 15px;
+    margin: 20px;
+    font-size: 15px;
+}
+.margin{
+    margin: 0 auto;
+    width: 80%;
+}
+.fond-style1{
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    text-align: right;
+    padding: 20px;
+    padding-top: 40px;
+}
+.fond-style2{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+.fond-style3{
+    font-size: 17px;
+    color: black;
+}
+.bg-image{
+    background-image: url(hand.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 100px;
+    background-position: 100px;
+    margin-top: 30px;
+    background-repeat: no-repeat;
+    margin-left: -100px;
+}
+.text{
+    text-align: center;
+}
+.bgcolor{
+    background-color: white;
+}
+.padding3{
+    padding: 5px;
+    margin-left: 5px;
+}
+.padding2{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.wid{
+    width: 99%;
+    margin: 0 auto;
+}

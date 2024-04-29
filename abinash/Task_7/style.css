@@ -17,12 +17,13 @@ body{
     font-weight: normal;
 }
 .font_s3{
-    font-size: 40px;
-    font-weight: bold;
+    font-size: 45px;
+    font-weight: 600;
     
 }
 .font_s4{
-    font-size: 16px;
+    font-size: 23px;
+    line-height: 25px;
 }
 .font_s5{
     font-size: 38px;
@@ -94,7 +95,7 @@ body{
     width: 20%;
 }
 .width_right{
-    width: 76%;
+    width: 78%;
 }
 .width_l1{
     width: 20%;
@@ -104,7 +105,7 @@ body{
 }
 .padding3{
     padding-top: 35px;
-    padding-bottom: 25px;
+    padding-bottom: 35px;
 }
 .padding4{
     padding-top: 10px;
@@ -129,9 +130,15 @@ body{
 }
 .button1{
     display: block;
-    font-size: 18px;
+    font-size: 24px;
     padding: 10px 0px ;
+    font-weight: bold;
 }
+
+.align_img{
+    text-align: center;
+}
+
 @media only screen and (min-width:320px) and (max-width:480px){
     .nofloat{
         float: none;
@@ -141,8 +148,16 @@ body{
     .nofloat_l1{
         float: none;
         margin-top: 10px;
-        width: 65%;
+        width: 100%;
+        
+        align-items: center;
     }
+    .align_img{
+        text-align: center;
+       
+    }
+     
+    
 
     .dis_block1{
         display: block;
@@ -154,6 +169,13 @@ body{
 
     .border_r1{
         border: none;
+    }
+    .img_prop{
+        max-width: min-content;
+    }
+
+    .img_prop{
+        max-width: min-content;
     }
 
 }
@@ -182,6 +204,8 @@ body{
     .border_r2{
         border: none;
     }
+
+    
 }
 
 @media only screen and (min-width:521px) and (max-width:620px){
