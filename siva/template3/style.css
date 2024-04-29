@@ -55,3 +55,16 @@ body{
 .bg_color5{
     background-color: #fff6d5;
 }
+.margin{
+    margin-bottom: 10px;
+}
+.width_margin{
+    width: 95%;
+    margin: 0 auto;
+}
+.font_style1{
+    font-size: 25px;
+}
+.border1{
+    border-bottom: 2px solid black;
+}
