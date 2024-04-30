@@ -77,12 +77,19 @@ body {
     font-weight: bolder;
 }
 
-.font_s4 {
-    font-size: 25px;
+.text{
+    font-size: 100%;
+     
 }
 
-.font_s5 {
-    font-size: 28px;
+.font_s4 {
+    font-size: 25px;
+    color: #5f5f5f;
+}
+
+.font_s {
+    font-size: 200%;
+    color: #dbd6d6;
 }
 
 .bg_i {
@@ -146,10 +153,10 @@ span {
 
 }
 
-.padding {
+ .padding1 {
     padding-top: 2%;
     padding-bottom: 20%;
-}
+ }
 
 .border_b {
     border-bottom: 1px solid rgb(194, 194, 194);
@@ -251,6 +258,10 @@ span {
     .margin1{
         margin: 0 auto;
     }
+    .width4{
+        width: 50%;
+        margin-top: 10px;
+    }
 }
 
 @media screen and (min-width:621px) and (max-width:768px) {
@@ -275,8 +286,8 @@ span {
     .txt_align{
         text-align: center;
     }
-    .width1{
-        width: 30%;
+    .width3{
+        width: 115%;
     }
     .margin1{
         margin: 0 auto;
@@ -290,8 +301,8 @@ span {
     .txt_align{
         text-align: center;
     }
-    .width1{
-        width: 30%;
+    .width3{
+        width: 115%;
     }
     .margin1{
         margin: 0 auto;

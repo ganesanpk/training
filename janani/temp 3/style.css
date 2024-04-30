@@ -1,0 +1,39 @@
+body{
+    margin: 0 auto;
+    padding: 0 ;
+}
+.font_size{
+    font-size: 35px;
+}
+.txt_center{
+    text-align: center;
+}
+.border{
+    border: 5px solid black;
+}
+.margin{
+    margin-bottom: 2px;
+}
+.padding{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.float_left{
+    float:left;
+}
+.float_right{
+    float:right;
+}
+.width{
+    width: 80%
+}
+.width1{
+    width: 33%;
+}
+.padding2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.bg_color{
+    background-color: #fff6d5;
+}
