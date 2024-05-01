@@ -37,9 +37,20 @@ body{
 .width3{
     width: 55%;
 }
-/* .height{
-    padding: 90px; 
-} */
+.section_margin{
+    width: 95%;
+    margin: 0 auto;
+}
+.font_style1{
+    font-size: 25px;
+}
+.border1{
+    border-bottom: 2px solid black;
+}
+.padding_top{
+    padding-top: 20px;
+}
+
 .bg_color1{
     background-color: #fff6d5;
 }
@@ -55,16 +66,17 @@ body{
 .bg_color5{
     background-color: #fff6d5;
 }
-.margin{
-    margin-bottom: 10px;
+.bg_article{
+    background-color: #d5e5ff;
 }
-.width_margin{
-    width: 95%;
-    margin: 0 auto;
+.bg_header{
+    background-color: #fff6d5;
 }
-.font_style1{
-    font-size: 25px;
+.bg_p{
+    background-color: #dbdee3;
 }
-.border1{
-    border-bottom: 2px solid black;
+
+.aside_padding{
+    padding-top: 33.2%;
+    padding-bottom: 33.5%;
 }
