@@ -83,8 +83,8 @@ body {
 }
 
 .font_s4 {
-    font-size: 25px;
-    color: #5f5f5f;
+    font-size: 28px;
+    color: #444444;
 }
 
 .font_s {
@@ -93,11 +93,11 @@ body {
 }
 
 .bg_i {
-    background-image: linear-gradient(to bottom, #cac6c6, #121213);
+    background-image: linear-gradient(to bottom ,#8b8a8a ,#020203 );
 }
 
 .bg_l {
-    background-image: linear-gradient(to bottom, #ffe6e6, #f7544e);
+    background-image: linear-gradient(to bottom,  #ffe6e6, #f7544e);
 }
 
 .bg_j {
@@ -198,6 +198,10 @@ span {
 
 .font_s7 {
     font-weight: 500;
+}
+
+.font_s8{
+    font-size: small;
 }
 
 .fa-envelope {
