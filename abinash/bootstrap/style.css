@@ -88,7 +88,7 @@ body {
 }
 
 .font_s {
-    font-size: 200%;
+    font-size: 135%;
     color: #dbd6d6;
 }
 
@@ -247,6 +247,10 @@ span {
     .margin1{
         margin: 0 auto;
     }
+    .width4{
+        width: 50%;
+        margin-top: 10px;
+    }
 }
 
 @media screen and (min-width:561px) and (max-width:620px) {
@@ -289,6 +293,9 @@ span {
     }
     .txt_align{
         text-align: center;
+    }
+    .width2{
+        width: 33%;
     }
     .width3{
         width: 115%;
