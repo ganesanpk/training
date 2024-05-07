@@ -35,7 +35,7 @@ body {
 }
 
 .width_b {
-    width: 40%;
+    width: 45%;
 }
 
 .margin_a {
@@ -249,7 +249,7 @@ span {
     }
     .width4{
         width: 50%;
-        margin-top: 10px;
+        padding-top: 10px;
     }
 }
 
@@ -268,7 +268,7 @@ span {
     }
     .width4{
         width: 50%;
-        margin-top: 10px;
+        padding-top: 10px;
     }
 }
 
@@ -305,7 +305,7 @@ span {
     }
 }
 
-@media screen and (min-width:993px) and (max-width:1024px) {
+@media screen and (min-width:993px) and (max-width:1199px) {
     .nofloat{
         margin-top: 10px;
     }
