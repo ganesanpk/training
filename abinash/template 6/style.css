@@ -231,14 +231,16 @@ a{
 
 
 @media screen and (min-width:320px) and (max-width:480px) {
-    .nofloat1{
+    .nofloat{
         margin-top: 10px;
         float: none;
         width: 100%;
+        
     }
-    .txt_align1{
-        text-align: center;
+    .txt_align{
+       text-align: center;
     }
+ 
 
     .img_align{
         text-align: center;
@@ -249,53 +251,14 @@ a{
     }
 }
 
-@media screen and (min-width:481px)and(max-width:560px) {
-    .nofloat2{
-        float: none;
-        margin-top: 10px;
+@media  screen and (min-width:481px) and (max-width:560px) {
+     .nofloat{
+        margin-top:10px;
+        float:none;
         width: 100%;
-    }
-
-    .txt_align2{
+     }
+     
+     .txt_align{
         text-align: center;
-    }
+     }
 }
-
-@media screen and (min-width:561px)and(max-width:620px) {
-    .nofloat3{
-        float: none;
-        margin-top: 10px;
-        width: 100%;
-    }
-
-    .txt_align3{
-        text-align: center;
-    }
-}
-
-@media screen and (min-width:621px)and(max-width:768px) {
-    .nofloat4{
-        float: none;
-        margin-top: 10px;
-        width: 100%;
-    }
-
-    .txt_align4{
-        text-align: center;
-    }
-}
-
-@media screen and (min-width:769px)and(max-width:992px) {
-    .nofloat5{
-        float: none;
-        margin-top: 10px;
-        width: 100%;
-    }
-
-    .txt_align5{
-        text-align: center;
-    }
-}
-
-
- 
