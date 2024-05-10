@@ -232,6 +232,9 @@ span {
         .margin1{
             margin: 0 auto;
         }
+        .width{
+            width: 15%;
+         }
  }
  
  @media screen and (min-width:481px) and (max-width:560px) {
@@ -251,6 +254,10 @@ span {
         width: 50%;
         padding-top: 10px;
     }
+
+    .width{
+        width: 22%;
+     }
 }
 
 @media screen and (min-width:561px) and (max-width:620px) {
