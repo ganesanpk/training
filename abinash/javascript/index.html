@@ -5,75 +5,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div>
-        <h1>Registration Form</h1>
+    <div class="bg-color2 py-5">
         <form>
-            <div>
-                <label>Firstname :</label>
-                <input type="text" placeholder="Firstname" />
+            <div class="width p-3 bg-color1">
+                <div class="rf">Registration Form</div>
+                <div class="pt-2">
+                    <label>Firstname :</label>
+                    <input type="text" placeholder="Firstname" required>
+                </div>
+                <br>
+    
+                <div>
+                    <label>Lastname :</label>
+                    <input type="text" placeholder="Lastname" required>
+                </div>
+                <br>
+    
+                <div>
+                    <label>Dite of birth:</label>
+                    <input type="date" placeholder="01/01/2000" required>
+                </div>
+                <br>
+    
+                <div>
+                    <label>Gender :</label>
+    
+                    <input type="radio" name="gender" required>
+                    <label for="gender">Male</label>
+    
+                    <input type="radio" name="gender" required>
+                    <label for="gender">Female</label>
+                </div>
+                <br>
+     
+                <div>
+                    <label>State :</label>
+                    <select>
+                        <option>Choose...</option>
+                        <option>Tamilnadu</option>
+                        <option>Andhra</option>
+                        <option>Kerala</option>
+                    </select>
+                </div>
+                <br>
+    
+                <div>
+                    <label>Laguage :</label>
+    
+                    <input type="checkbox">
+                    <label>Tamil</label>
+    
+                    <input type="checkbox">
+                    <label>English</label>
+    
+                    <input type="checkbox">
+                    <label>Telugu</label>
+                </div>
+                <br>
+    
+                <div>
+                    <label>Date :</label>
+                    <input type="date" required>
+                </div>
+                <br>
+    
+                <input class="border border-0 text-bg-primary p-2" type="submit" required>
             </div>
-            <br>
-
-            <div>
-                <label>Lastname :</label>
-                <input type="text" placeholder="Lastname" />
-            </div>
-            <br>
-
-            <div>
-                <label>Dite of birth:</label>
-                <input type="text" placeholder="01/01/2000" />
-            </div>
-            <br>
-
-            <div>
-                <label>Gender :</label>
-
-                <input type="radio" name="gender" />
-                <label for="gender">Male</label>
-
-                <input type="radio" name="gender" />
-                <label for="gender">Female</label>
-            </div>
-            <br>
-
-            <div>
-                <label>State :</label>
-                <select>
-                    <option>Choose...</option>
-                    <option>Tamilnadu</option>
-                    <option>Andhra</option>
-                    <option>Kerala</option>
-                </select>
-            </div>
-            <br>
-
-            <div>
-                <label>Laguage :</label>
-
-                <input type="checkbox" />
-                <label>Tamil</label>
-
-                <input type="checkbox" />
-                <label>English</label>
-
-                <input type="checkbox" />
-                <label>Telugu</label>
-            </div>
-            <br>
-
-            <div>
-                <label>Date :</label>
-                <input type="text">
-            </div>
-            <br>
-
-            <input type="submit" />
         </form>
     </div>
 </body>
