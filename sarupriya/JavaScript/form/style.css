@@ -37,3 +37,7 @@ body{
 .style{
     font-family: 'Pangolin', cursive;
 }
+.error_msg{
+    color:red;
+    font-size:25px;
+}
