@@ -1,0 +1,162 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.txt_l{
+    text-align: left;
+}
+
+ .txt_r{
+    text-align: right;
+ }
+
+.font-s1{
+    font-size: 160%;
+    font-weight: 500;
+    font-family : 'Pangolin', cursive;
+}
+
+.font-s2{
+    font-size: small;
+    color: rgb(152, 155, 155);
+}
+
+.font-i{
+    font-size: 16px;
+}
+
+.font-s3{
+    font-size: 40px;
+    font-family: 'Pangolin', cursive;
+    font-weight: 600;
+    margin-right: 15px;
+    color: white;
+}
+
+.font-s4{
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+}
+
+.font-s5{
+    font-size: 15px;
+    color: rgb(152, 155, 155);
+}
+
+.linespacing{
+    line-height: 20px;
+}
+.txt_d{
+    text-decoration: none;
+}
+
+.width-a{
+    width: 11%;
+}
+
+ 
+.button{
+    display: inline-block;
+    width: 140%;
+    text-align: center;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    font-size: 11px;
+    font-weight: bold;
+    color: white;
+    border-radius: 20px;
+    background-color: rgb(25, 171, 255);
+}
+
+.font_f{
+    font-family: 'Pangolin', cursive;
+}
+
+.fa-square-youtube{
+    color:  rgb(25, 171, 255);
+}
+
+.fa-square-facebook{
+    color:  rgb(25, 171, 255);
+}
+
+.fa-google-plus{
+    color: rgb(25, 171, 255);
+}
+
+.fa-linkedin{
+    color:  rgb(25, 171, 255);
+}
+
+.fa-pinterest{
+    color:  rgb(25, 171, 255);
+}
+
+
+.fa-instagram{
+    color: rgb(25, 171, 255);
+}
+
+.fa-twitter{
+    color:  rgb(25, 171, 255);
+}
+
+.bg_color1{
+    background-color: black;
+}
+
+.bg_color2{
+    background-color: rgb(58, 58, 58);
+}
+
+.bg_color3{
+    background-color: white;
+}
+
+.bg_img{
+    background-image:  url(img_2.jpeg);
+    background-position: 50%;
+    height: 170px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.padding1{
+    padding-top: 20px;
+}
+
+.margin_l{
+    margin-left: 10px;
+}
+.button1{
+    display: block;
+    border-radius: 15px;
+    width: 130%;
+    background-color:  rgb(25, 171, 255);
+    font-size: small;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.text_align{
+   text-align: center; 
+}
+
+.border1{
+    border: 1px solid black;
+}
+
+.width{
+    width: 98%;
+} 
+
+.margin{
+    margin: 0 auto;
+}
+
+.width_a{
+    width: 40%;
+}

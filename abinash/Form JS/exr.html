@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="exr.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="main-div">
+        <form id="form" name="form">
+            <div class="input-feilds">
+                <h3 class="mt-3">Register with us</h3>
+                <div class="input margin pt-4">
+                    <div class="fs-5">Username</div>
+                    <input type="text" name="name" id="name" placeholder="Enter Username">
+                    <span class="error_msg" id="name_error"></span>
+                </div>
+                <div class="input margin pt-4">
+                    <div class="fs-5">Email</div>
+                    <input type="email" name="email" id="email" placeholder="Enter Email">
+                    <span class="error_msg" id="email_error"></span>
+                </div>
+                <div class="input margin pt-4">
+                    <div class="fs-5">Password</div>
+                    <input type="password" name="pswd" id="pswd" placeholder="Enter Password">
+                    <span class="error_msg" id="pswd_error"></span>
+                </div>
+                <div class="input margin pt-4">
+                    <div class="fs-5">Confirm Password</div>
+                    <input type="password" name="cpswd" id="cpswd" placeholder="Enter Password again">
+                    <span class="error_msg" id="cpswd_error"></span>
+                </div>
+                <div class="input margin py-4">
+                    <button class="fs-5 rounded" type="Submit" value="submit" id="submit">Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
+<script>
+    document.getElementById('form').addEventListener("submit", function (event) {
+        event.preventDefault();
+        var name = document.getElementById('name').value;
+        var email = document.getElementById('email').value;
+        var pswd = document.getElementById('pswd').value;
+        var cpswd = document.getElementById('cpswd').value;
+        var name_error = document.getElementById('name_error').value;
+        var email_error = document.getElementById('email_error').value;
+        var pswd_error = document.getElementById('pswd_error').value;
+        var cpswd_error = document.getElementById('cpswd_error').value;
+        if (name == "") {
+            document.getElementById('name_error').innerHTML = "* User name is not valid";
+            isvalid = false;
+        }
+        else {
+            document.getElementById('name_error').innerHTML = "";
+        }
+        if (email == "") {
+            document.getElementById('email_error').innerHTML = "* email is not valid";
+            isvalid = false;
+        }
+        else {
+            document.getElementById('email_error').innerHTML = "";
+        }
+        if (pswd == "") {
+            document.getElementById('pswd_error').innerHTML = "* password is required";
+            isvalid = false;
+        }
+        else {
+            document.getElementById('pswd_error').innerHTML = "";
+        }
+        if (cpswd == "") {
+            document.getElementById('cpswd_error').innerHTML = "* confirm password is required";
+            isvalid = false;
+        }
+        else {
+            document.getElementById('cpswd_error').innerHTML = "";
+        }
+        if (name && email && pswd && cpswd) {
+            alert("Thank You")
+        }
+
+    }
+    );
+
+
+</script>
