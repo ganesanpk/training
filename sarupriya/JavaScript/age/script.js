@@ -73,7 +73,7 @@
 // console.log(dates);
 
 // output
-// 01-04-2024
+// 31-05-2024
 // 01 Mon - 04 April - 2024
 // give dob candidate adult or not
 // age with month
@@ -89,18 +89,17 @@ const months = ['January','February','March','April','May','June','July','August
 let year = da.getFullYear();
 console.log(date + "-" + mon[month] + "-" + year);
 console.log(date+" "+days[day]+" - "+mon[month]+" "+months[month]+" - "+year);
-var birthDate = new Date("2003/06/18");
+var birthDate = new Date("2002/09/26");
 var age = da.getFullYear() - birthDate.getFullYear();
 var m = da.getMonth() - birthDate.getMonth();
 if (m < 0 || (m === 0 && da.getDate() < birthDate.getDate())) {
     age-=1;
 }
 if(m<0){
-    m*=-1;
-}
-if(m!=0 && m < birthDate.getMonth()){
+    m*=-1; //m=m*-1
     m=12-m;
 }
+
 console.log(age+" "+m+" Month");
 if(age>18){
     console.log("This given date of birth candidate is an adult");
@@ -108,4 +107,10 @@ if(age>18){
 else{
     console.log("This given date of birth candidate is not an adult")
 }
+
+// var date = new date("2003/05/23");
+
+// var dat = new Date("2003/05/23");
+ 
+
 
