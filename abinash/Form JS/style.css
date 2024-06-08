@@ -1,0 +1,36 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.width{
+    width: 60%;
+    margin: 0 auto;
+}
+.main-div{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+    background-color: rgb(253, 205, 156);
+
+} 
+.width{
+    width: 380px;
+    margin: 0 auto;
+}
+
+.bg-color{
+   
+}
+.bg-img{
+    background-image: url(img.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.error_msg{
+    color: red;
+  }
+ 
+ 
+   
